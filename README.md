@@ -2,6 +2,8 @@
 
 **77 supplied province PDFs → 3,966 source rows → 3,963 distinct records, with every source row traceable.**
 
+ชุดข้อมูลนี้จัดทำขึ้นเพื่อรักษา จัดโครงสร้าง และช่วยให้สามารถตรวจสอบข้อมูลที่ปรากฏในเอกสารต้นทางได้สะดวกขึ้น
+
 Reproducible, source-faithful transcription of the provided **รวมมิตรท้องถิ่น 68** document collection. The collection concerns year **2568 BE / 2025 CE**; PDF creation dates and processing dates are different metadata.
 
 > These records transcribe claims in the supplied documents. Checking extraction accuracy does **not** verify those claims, establish wrongdoing, or prove a person's identity. The source's own confirmation/status wording is preserved as a source claim. Similar names and masked IDs must not be used to infer identity.
