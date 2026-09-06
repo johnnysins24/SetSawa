@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/johnnysins24/SetSawa/v1.0.0/schemas/records.schema.json",
+  "title": "SetSawa record v1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "masked_id",
+    "full_name_th",
+    "score_adjustment_reported",
+    "agency_name_th",
+    "source_status_text",
+    "district_name_th",
+    "province_name_th",
+    "source_location_basis_text",
+    "source_verification_status_text",
+    "province_id",
+    "district_id",
+    "agency_location_id"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "description": "Content-addressed dataset record ID; not a verified person ID. SHA-256 of the nine normalized source-content fields.",
+      "minLength": 1,
+      "pattern": "^rec_[a-f0-9]{64}$"
+    },
+    "masked_id": {
+      "type": "string",
+      "description": "Source identifier, preserving three digits, six literal x characters and four digits. Not unique; never reconstruct hidden digits.",
+      "minLength": 1,
+      "pattern": "^[0-9]{3}x{6}[0-9]{4}$"
+    },
+    "full_name_th": {
+      "type": "string",
+      "description": "Thai name as transcribed, with conservative Unicode NFC and whitespace normalization. No identity matching.",
+      "minLength": 1
+    },
+    "score_adjustment_reported": {
+      "type": "integer",
+      "description": "Integer adjustment reported by the source; not an independently verified examination result.",
+      "minimum": 1,
+      "maximum": 78
+    },
+    "agency_name_th": {
+      "type": "string",
+      "description": "Agency label transcribed from the source. Abbreviations are preserved.",
+      "minLength": 1
+    },
+    "source_status_text": {
+      "type": "string",
+      "description": "Verbatim-normalized first status column (source claim, not project verification).",
+      "minLength": 1
+    },
+    "district_name_th": {
+      "type": "string",
+      "description": "District label as reported in the source. Scope by province_id.",
+      "minLength": 1
+    },
+    "province_name_th": {
+      "type": "string",
+      "description": "Province label as reported in the document and row.",
+      "minLength": 1
+    },
+    "source_location_basis_text": {
+      "type": "string",
+      "description": "Source author's stated basis for location/agency confirmation. Not independently checked here.",
+      "minLength": 1
+    },
+    "source_verification_status_text": {
+      "type": "string",
+      "description": "Second status column as reported by the source. Does not verify allegations or establish wrongdoing.",
+      "minLength": 1
+    },
+    "province_id": {
+      "type": "string",
+      "description": "Hash of the source province label; not an official administrative code.",
+      "minLength": 1,
+      "pattern": "^province_[a-f0-9]{64}$"
+    },
+    "district_id": {
+      "type": "string",
+      "description": "Hash of the ordered province and district labels; not an official administrative code.",
+      "minLength": 1,
+      "pattern": "^district_[a-f0-9]{64}$"
+    },
+    "agency_location_id": {
+      "type": "string",
+      "description": "Hash of province, district and agency labels; a source-label group, not a verified organization ID.",
+      "minLength": 1,
+      "pattern": "^agency_[a-f0-9]{64}$"
+    }
+  }
+}

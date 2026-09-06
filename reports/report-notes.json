@@ -1,0 +1,18 @@
+{
+  "audience": "technical",
+  "required_structure": "Title; technical summary; findings; definitions placed before evidence; methods; limitations; next steps; further questions",
+  "chart_contract": {
+    "question": "How many distinct records are present in the ten largest province groups?",
+    "family": "bar",
+    "variant": "single series; zero baseline; descending counts",
+    "rows": 10,
+    "grain": "province-label group",
+    "denominator": "provided collection only",
+    "surface": "portable HTML native chart",
+    "palette": "shared renderer single-series theme; no categorical meaning",
+    "non_color": "province labels and count axis",
+    "limitation": "not an incidence/rate comparison"
+  },
+  "table_rationale": "All 77 province counts are supplied as an exact audit lookup, including the two empty documents.",
+  "verification": "passed"
+}

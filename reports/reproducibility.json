@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "canonical_file_count": 16,
+  "files": [
+    {
+      "path": "data/processed/raw/pages.jsonl",
+      "sha256": "1e9943eb64dfa28b603a2083903a38cc453ff1ab5fa74fca52d90e128b15fdf8"
+    },
+    {
+      "path": "data/processed/raw/rows.jsonl",
+      "sha256": "697255b63220531f85a8cedc45be5f640b220b186fe6a4e6fb653f94c2c53280"
+    },
+    {
+      "path": "data/processed/raw/documents.json",
+      "sha256": "011899d9d8841caa0879ff04a14af440e4379efe4fe454116988d60896f26245"
+    },
+    {
+      "path": "data/processed/clean/agency_locations.json",
+      "sha256": "9686c6d8a44dc6147078174c0145ca960e8d4e6a886b12791f4657d4a2027ae1"
+    },
+    {
+      "path": "data/processed/clean/districts.json",
+      "sha256": "0cddfb603bd66e01aaaa72c0c9fba38d28eebcbcf779f2e859192089d813f19b"
+    },
+    {
+      "path": "data/processed/clean/duplicates.json",
+      "sha256": "28fc6f9d620b1fa54ef0a423b2ad836fd8b44fb927070b0eae0b421949059a27"
+    },
+    {
+      "path": "data/processed/clean/provenance.json",
+      "sha256": "64f1d78f4570715e4fcf784e27a52c502fac188c1266afe825da8d6155453471"
+    },
+    {
+      "path": "data/processed/clean/provinces.json",
+      "sha256": "b29e7734e589cced2c1a4a041e148f4e0eaefdb09e93f05d93baf118f8d3070d"
+    },
+    {
+      "path": "data/processed/clean/records.json",
+      "sha256": "8c175587fb5e26833230e6549ef8f4f43fb384a8e1fb246001c580cbaffee686"
+    },
+    {
+      "path": "data/processed/clean/agency_locations.csv",
+      "sha256": "d93279941422063a426a179eaf975d84cc06a22b2249cec3a5ac5620007e1589"
+    },
+    {
+      "path": "data/processed/clean/districts.csv",
+      "sha256": "a902d41b8665e5a0cde1b724db593cb05da25c4bc6e3d0b0f8109d6909d5784d"
+    },
+    {
+      "path": "data/processed/clean/duplicates.csv",
+      "sha256": "49cefad8d4fc1286308aa5194cd4cc514b4f051aae071b49484952c78bd447e6"
+    },
+    {
+      "path": "data/processed/clean/provenance.csv",
+      "sha256": "4f53e6aa444fc2552f27e7440057e98139bb1f09006c9c28ecfb433d468baa58"
+    },
+    {
+      "path": "data/processed/clean/provinces.csv",
+      "sha256": "10921fd70ac952ce48efd864c6a5c8213b7aa9ef0e890ce4447e3159d8bf6488"
+    },
+    {
+      "path": "data/processed/clean/records.csv",
+      "sha256": "8be9e57f975a323d9209a04f13143f2db432a11919832a5abc1076f92a91020f"
+    },
+    {
+      "path": "data/processed/clean/transformations.jsonl",
+      "sha256": "8e1f1c01d0b0ed9aee3997a85a9f00b249b6908525c4c3caccdcf4b470c03329"
+    }
+  ],
+  "parquet_xlsx": "semantic equivalence checked by validate; Excel PDF coordinates use 1e-9 pt absolute tolerance"
+}

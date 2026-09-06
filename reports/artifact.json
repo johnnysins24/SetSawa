@@ -1,0 +1,754 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "SetSawa data quality — 2568 / 2025",
+    "description": "Technical audit of the supplied source documents and reproducible clean data.",
+    "generatedAt": "2026-09-06T00:00:00Z",
+    "sources": [
+      {
+        "id": "snapshot",
+        "label": "SetSawa v1.0.0: 77 provided PDFs and validated transcription",
+        "path": "data/processed/quality/validation.json",
+        "query": {
+          "engine": "Python",
+          "language": "python",
+          "description": "Transcribe all provided PDF tables, normalize nine content fields, deduplicate only complete matching content, and reconcile every document summary. Scope geography by province and district.",
+          "tables_used": [
+            "data/processed/clean/records.json",
+            "data/processed/clean/provenance.json",
+            "data/processed/clean/provinces.json",
+            "data/processed/raw/documents.json"
+          ],
+          "filters": [
+            "All 77 documents; no source-row exclusions. Three duplicate extra occurrences mapped to existing content records."
+          ],
+          "metric_definitions": {
+            "record_count": "Count distinct content hashes across the nine normalized source fields, excluding only source ordinal.",
+            "source_row_count": "Count every original table row including duplicate occurrences."
+          }
+        }
+      },
+      {
+        "id": "geography",
+        "label": "Province counts recomputed in SQLite from released JSON",
+        "path": "scripts/generate_report.py",
+        "query": {
+          "engine": "SQLite",
+          "language": "sql",
+          "sql": "SELECT p.province_name_th, p.source_row_count,\nCOUNT(r.record_id) AS record_count,\nCOALESCE(SUM(r.score_adjustment_reported), 0) AS record_score_sum\nFROM provided_province_manifest AS p\nLEFT JOIN clean_records AS r ON r.province_name_th = p.province_name_th\nGROUP BY p.province_name_th, p.source_row_count\nORDER BY record_count DESC, p.province_name_th",
+          "description": "Load data/processed/clean/provinces.json as provided_province_manifest and data/processed/clean/records.json as clean_records, then left-join to retain empty documents. Chart uses the first ten query rows; the table includes all 77.",
+          "tables_used": [
+            "provided_province_manifest",
+            "clean_records"
+          ],
+          "metric_definitions": {
+            "record_count": "Count distinct clean content records within each province label, including explicit zero-record documents.",
+            "source_row_count": "Original row count from each provided document's reconciled summary.",
+            "record_score_sum": "Sum of adjustments reported in distinct content records; not verified scores."
+          }
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# SetSawa data quality — 2568 / 2025"
+      },
+      {
+        "id": "summary",
+        "type": "markdown",
+        "sourceId": "snapshot",
+        "body": "## All 3,966 source rows remain traceable\n\nThe 77 supplied PDFs contain 149 pages and yield **3,963 distinct content records** after three exact duplicate collapses. Every document's extracted row count, reported score sum and maximum reconcile with its printed summary. The clean dataset is suitable for source-linked retrieval and descriptive analysis of this collection.\n\nRecords transcribe claims in the provided PDFs. Extraction checks do not verify those claims or establish wrongdoing. Existing masked IDs are not unique personal identifiers.\n\nข้อมูลถอดจากเอกสารที่ได้รับ การตรวจสอบการถอดข้อมูลไม่ได้ยืนยันข้อกล่าวอ้างหรือความผิดของบุคคล รหัสที่ปิดบังบางส่วนไม่ใช่ตัวระบุบุคคลที่ไม่ซ้ำ"
+      },
+      {
+        "id": "definitions",
+        "type": "markdown",
+        "sourceId": "snapshot",
+        "body": "## Count records and source rows separately\n\nA source row is one table occurrence, including its original sequence number. A clean record is the nine normalized content fields excluding that sequence number. Counts below describe this one supplied snapshot, not the population of candidates or confirmed cases. The label 2568 BE / 2025 CE is the collection year; PDF creation and processing dates are separate. Reported adjustments are integer source claims, not verified examination results."
+      },
+      {
+        "id": "evidence",
+        "type": "markdown",
+        "sourceId": "snapshot",
+        "body": "## Three duplicate pairs explain the count difference\n\nThe matching rule requires all nine fields to agree. The pairs occur in เพชรบูรณ์ (ordinals 3620/3621), ราชบุรี (550/551) and สุพรรณบุรี (956/957). Their reported adjustments are 30, 21 and 15. Keeping one occurrence per content record changes the reported sum from **148,954 to 148,888**. Both source locations remain available in provenance. No match is made solely from a name or masked identifier."
+      },
+      {
+        "id": "geography",
+        "type": "markdown",
+        "sourceId": "snapshot",
+        "body": "## Geography labels need their province context\n\n75 provinces contain records. Bangkok and Phang Nga have explicit empty documents. The 657 distinct district strings represent 659 province/district groups; 1,945 agency strings represent 2,030 province/district/agency groups. These are source-label groups, not verified entities. The chart compares the ten largest document groups by distinct content count. It does not measure geographic incidence or misconduct rates; no population denominator is supplied.\n\nNine PDF footnotes report 19 rows with unresolved district alternatives caused by same-name agencies within a province. Those source labels and footnotes are retained; no district is guessed. Consult the source page before treating a district group as a resolved location."
+      },
+      {
+        "id": "chart",
+        "type": "chart",
+        "chartId": "province_counts",
+        "layout": "full"
+      },
+      {
+        "id": "province_table",
+        "type": "table",
+        "tableId": "province_detail",
+        "layout": "full"
+      },
+      {
+        "id": "method",
+        "type": "markdown",
+        "sourceId": "snapshot",
+        "body": "## Rebuild from the preserved PDF bytes\n\nThe offline pipeline checks each PDF hash, rejects active content, extracts digital text and table geometry, applies NFC and conservative whitespace normalization, parses reported adjustments as integers, and produces content-addressed records. Every altered cell is logged. Each PDF runs in a bounded process. Raw cells and source metadata remain available. CSV, JSON, Parquet and Excel are cross-checked; an independent full rebuild compares canonical byte hashes. Excel PDF coordinates alone allow a 1e-9-point absolute rounding tolerance."
+      },
+      {
+        "id": "limits",
+        "type": "markdown",
+        "sourceId": "snapshot",
+        "body": "## Source claims and identities remain unverified\n\n22 masked-ID values repeat among the source rows; 19 remain collisions between distinct clean records. They are unsuitable as unique keys. No identity enrichment or hidden-digit reconstruction is performed. The PDFs refer to an earlier CSV that was not supplied. Website ingestion is deferred. There is no time series, authoritative entity registry, exam-participation denominator, or independent verification of allegations. Source-data licensing is unspecified. PDF checks and secret scans are defense in depth, not a guarantee against every exploit."
+      },
+      {
+        "id": "next",
+        "type": "markdown",
+        "body": "## Use the versioned dataset before building the website\n\nConsumers should join records to provenance by record_id, group locations using scoped IDs, and preserve source qualifications in their interfaces. The next project phase is an accessible static Vercel site with source-page links, browser-side filtering, download documentation, protected previews and verified security headers.\n\n### Further questions\n\nAn original CSV, explicit source reuse terms, authoritative geography mappings and evidence of source authenticity would support future improvements. None is inferred in this release."
+      }
+    ],
+    "charts": [
+      {
+        "id": "province_counts",
+        "type": "bar",
+        "title": "Distinct records by province — ten largest groups",
+        "subtitle": "Counts describe this collection; geographic rates cannot be inferred.",
+        "dataset": "top_provinces",
+        "sourceId": "geography",
+        "encodings": {
+          "x": {
+            "field": "province_name_th",
+            "type": "nominal",
+            "label": "Province"
+          },
+          "y": {
+            "field": "record_count",
+            "type": "quantitative",
+            "label": "Distinct records",
+            "format": "number"
+          }
+        },
+        "layout": "full",
+        "settings": {
+          "orientation": "horizontal"
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "province_detail",
+        "title": "All 77 province documents",
+        "dataset": "provinces",
+        "sourceId": "geography",
+        "defaultSort": {
+          "field": "record_count",
+          "direction": "desc"
+        },
+        "columns": [
+          {
+            "field": "province_name_th",
+            "label": "จังหวัด / Province",
+            "type": "text"
+          },
+          {
+            "field": "source_row_count",
+            "label": "Source rows",
+            "format": "number"
+          },
+          {
+            "field": "record_count",
+            "label": "Distinct records",
+            "format": "number"
+          },
+          {
+            "field": "record_score_sum",
+            "label": "Reported adjustment sum",
+            "format": "number"
+          }
+        ]
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "status": "ready",
+    "generatedAt": "2026-09-06T00:00:00Z",
+    "datasets": {
+      "provinces": [
+        {
+          "province_name_th": "สุราษฎร์ธานี",
+          "source_row_count": 239,
+          "record_count": 239,
+          "record_score_sum": 11143
+        },
+        {
+          "province_name_th": "นนทบุรี",
+          "source_row_count": 182,
+          "record_count": 182,
+          "record_score_sum": 6503
+        },
+        {
+          "province_name_th": "ปทุมธานี",
+          "source_row_count": 181,
+          "record_count": 181,
+          "record_score_sum": 6212
+        },
+        {
+          "province_name_th": "นครราชสีมา",
+          "source_row_count": 154,
+          "record_count": 154,
+          "record_score_sum": 5327
+        },
+        {
+          "province_name_th": "กระบี่",
+          "source_row_count": 115,
+          "record_count": 115,
+          "record_score_sum": 4884
+        },
+        {
+          "province_name_th": "สุพรรณบุรี",
+          "source_row_count": 113,
+          "record_count": 112,
+          "record_score_sum": 4203
+        },
+        {
+          "province_name_th": "ภูเก็ต",
+          "source_row_count": 108,
+          "record_count": 108,
+          "record_score_sum": 4449
+        },
+        {
+          "province_name_th": "พระนครศรีอยุธยา",
+          "source_row_count": 105,
+          "record_count": 105,
+          "record_score_sum": 3324
+        },
+        {
+          "province_name_th": "อุบลราชธานี",
+          "source_row_count": 105,
+          "record_count": 105,
+          "record_score_sum": 3830
+        },
+        {
+          "province_name_th": "สมุทรปราการ",
+          "source_row_count": 95,
+          "record_count": 95,
+          "record_score_sum": 3084
+        },
+        {
+          "province_name_th": "ระนอง",
+          "source_row_count": 94,
+          "record_count": 94,
+          "record_score_sum": 4441
+        },
+        {
+          "province_name_th": "พัทลุง",
+          "source_row_count": 91,
+          "record_count": 91,
+          "record_score_sum": 4179
+        },
+        {
+          "province_name_th": "สระบุรี",
+          "source_row_count": 91,
+          "record_count": 91,
+          "record_score_sum": 3160
+        },
+        {
+          "province_name_th": "นครปฐม",
+          "source_row_count": 90,
+          "record_count": 90,
+          "record_score_sum": 3219
+        },
+        {
+          "province_name_th": "ปัตตานี",
+          "source_row_count": 88,
+          "record_count": 88,
+          "record_score_sum": 3967
+        },
+        {
+          "province_name_th": "ชุมพร",
+          "source_row_count": 84,
+          "record_count": 84,
+          "record_score_sum": 4026
+        },
+        {
+          "province_name_th": "ชลบุรี",
+          "source_row_count": 82,
+          "record_count": 82,
+          "record_score_sum": 2514
+        },
+        {
+          "province_name_th": "สมุทรสาคร",
+          "source_row_count": 80,
+          "record_count": 80,
+          "record_score_sum": 2807
+        },
+        {
+          "province_name_th": "เพชรบูรณ์",
+          "source_row_count": 79,
+          "record_count": 78,
+          "record_score_sum": 2716
+        },
+        {
+          "province_name_th": "ฉะเชิงเทรา",
+          "source_row_count": 76,
+          "record_count": 76,
+          "record_score_sum": 2487
+        },
+        {
+          "province_name_th": "ลพบุรี",
+          "source_row_count": 73,
+          "record_count": 73,
+          "record_score_sum": 2634
+        },
+        {
+          "province_name_th": "ตรัง",
+          "source_row_count": 72,
+          "record_count": 72,
+          "record_score_sum": 3290
+        },
+        {
+          "province_name_th": "กาญจนบุรี",
+          "source_row_count": 69,
+          "record_count": 69,
+          "record_score_sum": 2577
+        },
+        {
+          "province_name_th": "สงขลา",
+          "source_row_count": 68,
+          "record_count": 68,
+          "record_score_sum": 3118
+        },
+        {
+          "province_name_th": "พิจิตร",
+          "source_row_count": 65,
+          "record_count": 65,
+          "record_score_sum": 2160
+        },
+        {
+          "province_name_th": "นราธิวาส",
+          "source_row_count": 62,
+          "record_count": 62,
+          "record_score_sum": 2774
+        },
+        {
+          "province_name_th": "ปราจีนบุรี",
+          "source_row_count": 61,
+          "record_count": 61,
+          "record_score_sum": 2258
+        },
+        {
+          "province_name_th": "อุดรธานี",
+          "source_row_count": 61,
+          "record_count": 61,
+          "record_score_sum": 2314
+        },
+        {
+          "province_name_th": "ระยอง",
+          "source_row_count": 59,
+          "record_count": 59,
+          "record_score_sum": 1874
+        },
+        {
+          "province_name_th": "หนองบัวลำภู",
+          "source_row_count": 52,
+          "record_count": 52,
+          "record_score_sum": 1941
+        },
+        {
+          "province_name_th": "นครพนม",
+          "source_row_count": 51,
+          "record_count": 51,
+          "record_score_sum": 1888
+        },
+        {
+          "province_name_th": "ตาก",
+          "source_row_count": 49,
+          "record_count": 49,
+          "record_score_sum": 1608
+        },
+        {
+          "province_name_th": "ขอนแก่น",
+          "source_row_count": 45,
+          "record_count": 45,
+          "record_score_sum": 1574
+        },
+        {
+          "province_name_th": "ราชบุรี",
+          "source_row_count": 46,
+          "record_count": 45,
+          "record_score_sum": 1511
+        },
+        {
+          "province_name_th": "สกลนคร",
+          "source_row_count": 42,
+          "record_count": 42,
+          "record_score_sum": 1548
+        },
+        {
+          "province_name_th": "อ่างทอง",
+          "source_row_count": 42,
+          "record_count": 42,
+          "record_score_sum": 1562
+        },
+        {
+          "province_name_th": "เชียงใหม่",
+          "source_row_count": 42,
+          "record_count": 42,
+          "record_score_sum": 1376
+        },
+        {
+          "province_name_th": "นครศรีธรรมราช",
+          "source_row_count": 39,
+          "record_count": 39,
+          "record_score_sum": 1624
+        },
+        {
+          "province_name_th": "พิษณุโลก",
+          "source_row_count": 39,
+          "record_count": 39,
+          "record_score_sum": 1456
+        },
+        {
+          "province_name_th": "ชัยภูมิ",
+          "source_row_count": 38,
+          "record_count": 38,
+          "record_score_sum": 1182
+        },
+        {
+          "province_name_th": "กำแพงเพชร",
+          "source_row_count": 35,
+          "record_count": 35,
+          "record_score_sum": 1004
+        },
+        {
+          "province_name_th": "ลำปาง",
+          "source_row_count": 35,
+          "record_count": 35,
+          "record_score_sum": 949
+        },
+        {
+          "province_name_th": "ยะลา",
+          "source_row_count": 32,
+          "record_count": 32,
+          "record_score_sum": 1323
+        },
+        {
+          "province_name_th": "สุโขทัย",
+          "source_row_count": 32,
+          "record_count": 32,
+          "record_score_sum": 938
+        },
+        {
+          "province_name_th": "หนองคาย",
+          "source_row_count": 32,
+          "record_count": 32,
+          "record_score_sum": 1150
+        },
+        {
+          "province_name_th": "สระแก้ว",
+          "source_row_count": 31,
+          "record_count": 31,
+          "record_score_sum": 922
+        },
+        {
+          "province_name_th": "สมุทรสงคราม",
+          "source_row_count": 25,
+          "record_count": 25,
+          "record_score_sum": 846
+        },
+        {
+          "province_name_th": "มหาสารคาม",
+          "source_row_count": 24,
+          "record_count": 24,
+          "record_score_sum": 864
+        },
+        {
+          "province_name_th": "สิงห์บุรี",
+          "source_row_count": 24,
+          "record_count": 24,
+          "record_score_sum": 838
+        },
+        {
+          "province_name_th": "ชัยนาท",
+          "source_row_count": 23,
+          "record_count": 23,
+          "record_score_sum": 720
+        },
+        {
+          "province_name_th": "ศรีสะเกษ",
+          "source_row_count": 23,
+          "record_count": 23,
+          "record_score_sum": 924
+        },
+        {
+          "province_name_th": "สตูล",
+          "source_row_count": 23,
+          "record_count": 23,
+          "record_score_sum": 1106
+        },
+        {
+          "province_name_th": "ประจวบคีรีขันธ์",
+          "source_row_count": 20,
+          "record_count": 20,
+          "record_score_sum": 771
+        },
+        {
+          "province_name_th": "เพชรบุรี",
+          "source_row_count": 20,
+          "record_count": 20,
+          "record_score_sum": 863
+        },
+        {
+          "province_name_th": "แม่ฮ่องสอน",
+          "source_row_count": 20,
+          "record_count": 20,
+          "record_score_sum": 601
+        },
+        {
+          "province_name_th": "อุทัยธานี",
+          "source_row_count": 19,
+          "record_count": 19,
+          "record_score_sum": 730
+        },
+        {
+          "province_name_th": "พะเยา",
+          "source_row_count": 18,
+          "record_count": 18,
+          "record_score_sum": 648
+        },
+        {
+          "province_name_th": "ลำพูน",
+          "source_row_count": 18,
+          "record_count": 18,
+          "record_score_sum": 609
+        },
+        {
+          "province_name_th": "สุรินทร์",
+          "source_row_count": 18,
+          "record_count": 18,
+          "record_score_sum": 682
+        },
+        {
+          "province_name_th": "อุตรดิตถ์",
+          "source_row_count": 17,
+          "record_count": 17,
+          "record_score_sum": 433
+        },
+        {
+          "province_name_th": "นครนายก",
+          "source_row_count": 16,
+          "record_count": 16,
+          "record_score_sum": 536
+        },
+        {
+          "province_name_th": "เลย",
+          "source_row_count": 16,
+          "record_count": 16,
+          "record_score_sum": 651
+        },
+        {
+          "province_name_th": "จันทบุรี",
+          "source_row_count": 13,
+          "record_count": 13,
+          "record_score_sum": 446
+        },
+        {
+          "province_name_th": "นครสวรรค์",
+          "source_row_count": 13,
+          "record_count": 13,
+          "record_score_sum": 335
+        },
+        {
+          "province_name_th": "บุรีรัมย์",
+          "source_row_count": 13,
+          "record_count": 13,
+          "record_score_sum": 391
+        },
+        {
+          "province_name_th": "ร้อยเอ็ด",
+          "source_row_count": 12,
+          "record_count": 12,
+          "record_score_sum": 452
+        },
+        {
+          "province_name_th": "เชียงราย",
+          "source_row_count": 12,
+          "record_count": 12,
+          "record_score_sum": 285
+        },
+        {
+          "province_name_th": "บึงกาฬ",
+          "source_row_count": 11,
+          "record_count": 11,
+          "record_score_sum": 378
+        },
+        {
+          "province_name_th": "น่าน",
+          "source_row_count": 10,
+          "record_count": 10,
+          "record_score_sum": 354
+        },
+        {
+          "province_name_th": "ยโสธร",
+          "source_row_count": 10,
+          "record_count": 10,
+          "record_score_sum": 456
+        },
+        {
+          "province_name_th": "กาฬสินธุ์",
+          "source_row_count": 9,
+          "record_count": 9,
+          "record_score_sum": 382
+        },
+        {
+          "province_name_th": "ตราด",
+          "source_row_count": 6,
+          "record_count": 6,
+          "record_score_sum": 195
+        },
+        {
+          "province_name_th": "แพร่",
+          "source_row_count": 4,
+          "record_count": 4,
+          "record_score_sum": 174
+        },
+        {
+          "province_name_th": "อำนาจเจริญ",
+          "source_row_count": 3,
+          "record_count": 3,
+          "record_score_sum": 111
+        },
+        {
+          "province_name_th": "มุกดาหาร",
+          "source_row_count": 2,
+          "record_count": 2,
+          "record_score_sum": 77
+        },
+        {
+          "province_name_th": "กรุงเทพมหานคร",
+          "source_row_count": 0,
+          "record_count": 0,
+          "record_score_sum": 0
+        },
+        {
+          "province_name_th": "พังงา",
+          "source_row_count": 0,
+          "record_count": 0,
+          "record_score_sum": 0
+        }
+      ],
+      "top_provinces": [
+        {
+          "province_name_th": "สุราษฎร์ธานี",
+          "source_row_count": 239,
+          "record_count": 239,
+          "record_score_sum": 11143
+        },
+        {
+          "province_name_th": "นนทบุรี",
+          "source_row_count": 182,
+          "record_count": 182,
+          "record_score_sum": 6503
+        },
+        {
+          "province_name_th": "ปทุมธานี",
+          "source_row_count": 181,
+          "record_count": 181,
+          "record_score_sum": 6212
+        },
+        {
+          "province_name_th": "นครราชสีมา",
+          "source_row_count": 154,
+          "record_count": 154,
+          "record_score_sum": 5327
+        },
+        {
+          "province_name_th": "กระบี่",
+          "source_row_count": 115,
+          "record_count": 115,
+          "record_score_sum": 4884
+        },
+        {
+          "province_name_th": "สุพรรณบุรี",
+          "source_row_count": 113,
+          "record_count": 112,
+          "record_score_sum": 4203
+        },
+        {
+          "province_name_th": "ภูเก็ต",
+          "source_row_count": 108,
+          "record_count": 108,
+          "record_score_sum": 4449
+        },
+        {
+          "province_name_th": "พระนครศรีอยุธยา",
+          "source_row_count": 105,
+          "record_count": 105,
+          "record_score_sum": 3324
+        },
+        {
+          "province_name_th": "อุบลราชธานี",
+          "source_row_count": 105,
+          "record_count": 105,
+          "record_score_sum": 3830
+        },
+        {
+          "province_name_th": "สมุทรปราการ",
+          "source_row_count": 95,
+          "record_count": 95,
+          "record_score_sum": 3084
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "snapshot",
+      "label": "SetSawa v1.0.0: 77 provided PDFs and validated transcription",
+      "path": "data/processed/quality/validation.json",
+      "query": {
+        "engine": "Python",
+        "language": "python",
+        "description": "Transcribe all provided PDF tables, normalize nine content fields, deduplicate only complete matching content, and reconcile every document summary. Scope geography by province and district.",
+        "tables_used": [
+          "data/processed/clean/records.json",
+          "data/processed/clean/provenance.json",
+          "data/processed/clean/provinces.json",
+          "data/processed/raw/documents.json"
+        ],
+        "filters": [
+          "All 77 documents; no source-row exclusions. Three duplicate extra occurrences mapped to existing content records."
+        ],
+        "metric_definitions": {
+          "record_count": "Count distinct content hashes across the nine normalized source fields, excluding only source ordinal.",
+          "source_row_count": "Count every original table row including duplicate occurrences."
+        }
+      }
+    },
+    {
+      "id": "geography",
+      "label": "Province counts recomputed in SQLite from released JSON",
+      "path": "scripts/generate_report.py",
+      "query": {
+        "engine": "SQLite",
+        "language": "sql",
+        "sql": "SELECT p.province_name_th, p.source_row_count,\nCOUNT(r.record_id) AS record_count,\nCOALESCE(SUM(r.score_adjustment_reported), 0) AS record_score_sum\nFROM provided_province_manifest AS p\nLEFT JOIN clean_records AS r ON r.province_name_th = p.province_name_th\nGROUP BY p.province_name_th, p.source_row_count\nORDER BY record_count DESC, p.province_name_th",
+        "description": "Load data/processed/clean/provinces.json as provided_province_manifest and data/processed/clean/records.json as clean_records, then left-join to retain empty documents. Chart uses the first ten query rows; the table includes all 77.",
+        "tables_used": [
+          "provided_province_manifest",
+          "clean_records"
+        ],
+        "metric_definitions": {
+          "record_count": "Count distinct clean content records within each province label, including explicit zero-record documents.",
+          "source_row_count": "Original row count from each provided document's reconciled summary.",
+          "record_score_sum": "Sum of adjustments reported in distinct content records; not verified scores."
+        }
+      }
+    }
+  ]
+}

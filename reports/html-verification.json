@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "stages": {
+    "validation": "passed",
+    "package": "passed",
+    "verification": "passed"
+  },
+  "counts": {
+    "blocks": 10,
+    "charts": 1,
+    "html": 0,
+    "metrics": 0,
+    "tables": 1
+  },
+  "sourceDialog": "passed",
+  "sourceInteraction": "keyboard_menu_semantic_click",
+  "viewports": [
+    1440,
+    390
+  ],
+  "timings": {
+    "validateAndPackageMs": 1283.9,
+    "staticChartExtractionMs": 1213.7,
+    "browserRunMs": 796,
+    "readerReadyMs": 72.9,
+    "contentChecksMs": 32,
+    "sourceDialogMs": 32,
+    "responsiveChecksMs": 31.9,
+    "verificationMs": 889.7,
+    "totalMs": 2199.9
+  },
+  "rendererVersion": "0.2.10",
+  "layoutFix": "Constrain sticky top bar to its parent width; no overflow hiding or relaxed verifier"
+}

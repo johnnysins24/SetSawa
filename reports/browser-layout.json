@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "width": 1440,
+      "scheme": "light",
+      "clientWidth": 1425,
+      "scrollWidth": 1425
+    },
+    {
+      "width": 390,
+      "scheme": "light",
+      "clientWidth": 375,
+      "scrollWidth": 375
+    },
+    {
+      "width": 1440,
+      "scheme": "dark",
+      "clientWidth": 1425,
+      "scrollWidth": 1425
+    },
+    {
+      "width": 390,
+      "scheme": "dark",
+      "clientWidth": 375,
+      "scrollWidth": 375
+    }
+  ]
+}

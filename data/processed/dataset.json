@@ -1,0 +1,14 @@
+{
+  "name": "SetSawa",
+  "version": "1.0.0",
+  "schema_version": "1.0.0",
+  "dataset_year_be": 2568,
+  "dataset_year_ce": 2025,
+  "source_basis": "provided province PDFs; these reference an earlier CSV not provided",
+  "source_data_license": "unspecified",
+  "attribution_status": "tribute wording deferred",
+  "record_id_contract": "rec_ + SHA-256 of UTF-8, key-sorted compact JSON of the nine normalized content fields; see schemas/records.schema.json",
+  "geography_contract": "source-label groups; not official geographic codes or verified entities",
+  "record_count": 3963,
+  "source_row_count": 3966
+}

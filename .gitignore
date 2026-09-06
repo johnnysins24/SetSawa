@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.cache/
+node_modules/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+รวมมิตรท้องถิ่น 68-20260906T020845Z-1-001/

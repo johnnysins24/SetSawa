@@ -1,0 +1,62 @@
+name: Release
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: release
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.9.26'
+          enable-cache: false
+      - run: uv sync --locked --python 3.12
+      - run: uv run --locked pytest -q
+      - run: uv run --locked python scripts/check_rebuild.py
+      - run: uv run --locked pip-audit
+      - run: uv run --locked python -m setsawa.pipeline package
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verified-release
+          path: |
+            dist/*.zip
+            dist/*.sha256
+            reports/quality-report.html
+            data/processed/reader/setsawa.xlsx
+            docs/release-notes.md
+          retention-days: 7
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      contents: write
+    steps:
+      # No source checkout or PDF parser runs with the write token.
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: verified-release
+          path: verified
+      - name: Publish immutable snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: >-
+          gh release create v1.0.0
+          verified/dist/setsawa-v1.0.0.zip
+          verified/dist/checksums.sha256
+          verified/dist/release-checksums.sha256
+          verified/reports/quality-report.html
+          verified/data/processed/reader/setsawa.xlsx
+          --target "$GITHUB_SHA"
+          --title 'SetSawa v1.0.0'
+          --notes-file verified/docs/release-notes.md

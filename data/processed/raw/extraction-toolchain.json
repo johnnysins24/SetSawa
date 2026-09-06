@@ -1,0 +1,10 @@
+{
+  "pipeline_version": "1.0.0",
+  "python": "3.12",
+  "packages": {
+    "pdfplumber": "0.11.10",
+    "pdfminer.six": "20260107",
+    "pypdf": "6.17.0"
+  },
+  "processed_at_utc": "2026-09-06T03:03:52.075453+00:00"
+}

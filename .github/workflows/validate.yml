@@ -1,0 +1,36 @@
+name: Validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    name: validate (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.9.26'
+          enable-cache: false
+      - run: uv sync --locked --python 3.12
+      - run: uv run --locked pytest -q
+      - run: uv run --locked python -m setsawa.pipeline validate
+      - run: uv run --locked python scripts/check_rebuild.py
+      - run: uv run --locked python scripts/generate_contract.py
+      - run: git diff --exit-code -- schemas/
+      - run: uv run --locked python examples/load.py
+      - run: node examples/load.mjs
+      - run: uv run --locked pip-audit

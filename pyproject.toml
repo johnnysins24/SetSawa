@@ -1,0 +1,24 @@
+[project]
+name = "setsawa"
+version = "1.0.0"
+description = "Reproducible extraction and source-faithful cleaning of the provided 77 province PDFs"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+dependencies = [
+  "pdfplumber>=0.11.9,<0.12",
+  "pypdf>=6.8,<7",
+  "pyarrow>=23,<24",
+  "jsonschema>=4.26,<5",
+  "xlsxwriter>=3.2.9,<4",
+  "openpyxl>=3.1.5,<4",
+]
+
+[dependency-groups]
+dev = ["pytest>=9,<10", "pip-audit>=2.10,<3", "nbformat>=5.10,<6"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.uv]
+package = false

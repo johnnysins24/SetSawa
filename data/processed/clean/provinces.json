@@ -1,0 +1,772 @@
+[
+  {
+    "province_id": "province_d5f72dd6445611cd01ec014c770c73ac8f6ac95fdb4458877a92fc3a3dc75181",
+    "province_name_th": "กรุงเทพมหานคร",
+    "document_id": "pdf_01",
+    "source_document_number": 1,
+    "source_row_count": 0,
+    "record_count": 0,
+    "source_score_sum": 0,
+    "record_score_sum": 0
+  },
+  {
+    "province_id": "province_61a53373b2e9c0df2ddce5a33c4089eea499fdbc79faa3628cdba92c7300467d",
+    "province_name_th": "สมุทรปราการ",
+    "document_id": "pdf_02",
+    "source_document_number": 2,
+    "source_row_count": 95,
+    "record_count": 95,
+    "source_score_sum": 3084,
+    "record_score_sum": 3084
+  },
+  {
+    "province_id": "province_1b78d650f80db958220117d1dcd1288b01339891ccf137dc4478043ddc5c83df",
+    "province_name_th": "นนทบุรี",
+    "document_id": "pdf_03",
+    "source_document_number": 3,
+    "source_row_count": 182,
+    "record_count": 182,
+    "source_score_sum": 6503,
+    "record_score_sum": 6503
+  },
+  {
+    "province_id": "province_845ca623fa05712e37ea31ed8051b7861da0d6002713b00cdf730b8c59dcc3ed",
+    "province_name_th": "ปทุมธานี",
+    "document_id": "pdf_04",
+    "source_document_number": 4,
+    "source_row_count": 181,
+    "record_count": 181,
+    "source_score_sum": 6212,
+    "record_score_sum": 6212
+  },
+  {
+    "province_id": "province_8e4c697094a6a37a289e762186f967a284931f63ad533332b27d1215af83f5cc",
+    "province_name_th": "พระนครศรีอยุธยา",
+    "document_id": "pdf_05",
+    "source_document_number": 5,
+    "source_row_count": 105,
+    "record_count": 105,
+    "source_score_sum": 3324,
+    "record_score_sum": 3324
+  },
+  {
+    "province_id": "province_88fad3b503736a2ba0c262b0e1fb38248a739901534f3e0d4d6975c373abaf8d",
+    "province_name_th": "อ่างทอง",
+    "document_id": "pdf_06",
+    "source_document_number": 6,
+    "source_row_count": 42,
+    "record_count": 42,
+    "source_score_sum": 1562,
+    "record_score_sum": 1562
+  },
+  {
+    "province_id": "province_bdfa23f4fa3ccb6c3282cd6714398767f6d7ed1f9d7ffac0a798869f0166bf2f",
+    "province_name_th": "ลพบุรี",
+    "document_id": "pdf_07",
+    "source_document_number": 7,
+    "source_row_count": 73,
+    "record_count": 73,
+    "source_score_sum": 2634,
+    "record_score_sum": 2634
+  },
+  {
+    "province_id": "province_a8ea20b679cce738a044db555e9357f78dfa6b8ec63de2d08e17dbfdf7f0363d",
+    "province_name_th": "สิงห์บุรี",
+    "document_id": "pdf_08",
+    "source_document_number": 8,
+    "source_row_count": 24,
+    "record_count": 24,
+    "source_score_sum": 838,
+    "record_score_sum": 838
+  },
+  {
+    "province_id": "province_208ec967c4fe5bba69db8906245d976367f17a3a94e5b1d656c3cc049eb1d7ce",
+    "province_name_th": "ชัยนาท",
+    "document_id": "pdf_09",
+    "source_document_number": 9,
+    "source_row_count": 23,
+    "record_count": 23,
+    "source_score_sum": 720,
+    "record_score_sum": 720
+  },
+  {
+    "province_id": "province_3f5926dca493faa4b9b619fcefdc017d138ec349db11ae8bd338633e455e63de",
+    "province_name_th": "สระบุรี",
+    "document_id": "pdf_10",
+    "source_document_number": 10,
+    "source_row_count": 91,
+    "record_count": 91,
+    "source_score_sum": 3160,
+    "record_score_sum": 3160
+  },
+  {
+    "province_id": "province_60fae4fb7130d981888934eeac1e5e4ba1fd12604ae03f13fbae5c47fdf90a0a",
+    "province_name_th": "ชลบุรี",
+    "document_id": "pdf_11",
+    "source_document_number": 11,
+    "source_row_count": 82,
+    "record_count": 82,
+    "source_score_sum": 2514,
+    "record_score_sum": 2514
+  },
+  {
+    "province_id": "province_f436b115b5a2c5199b7dc819caa5389457ce7a004ccb9498f71f00a9c934678b",
+    "province_name_th": "ระยอง",
+    "document_id": "pdf_12",
+    "source_document_number": 12,
+    "source_row_count": 59,
+    "record_count": 59,
+    "source_score_sum": 1874,
+    "record_score_sum": 1874
+  },
+  {
+    "province_id": "province_b190ceb3ce3e28a65c703ab367c8de86e89387de1a365d13c26d8ace65eeaebb",
+    "province_name_th": "จันทบุรี",
+    "document_id": "pdf_13",
+    "source_document_number": 13,
+    "source_row_count": 13,
+    "record_count": 13,
+    "source_score_sum": 446,
+    "record_score_sum": 446
+  },
+  {
+    "province_id": "province_216c67bb0a50283e0e0bc13ab88e51219b8d52de2148c5263379d75398d46599",
+    "province_name_th": "ตราด",
+    "document_id": "pdf_14",
+    "source_document_number": 14,
+    "source_row_count": 6,
+    "record_count": 6,
+    "source_score_sum": 195,
+    "record_score_sum": 195
+  },
+  {
+    "province_id": "province_1a8c41b7f031ac6415d7b44dd62641bea4b68fe5615ede014f538679686791b9",
+    "province_name_th": "ฉะเชิงเทรา",
+    "document_id": "pdf_15",
+    "source_document_number": 15,
+    "source_row_count": 76,
+    "record_count": 76,
+    "source_score_sum": 2487,
+    "record_score_sum": 2487
+  },
+  {
+    "province_id": "province_f78a5d7f079e5ff0a2a830f711e52a4138b3f7f5cbebc1d59c8de709aa41dcf2",
+    "province_name_th": "ปราจีนบุรี",
+    "document_id": "pdf_16",
+    "source_document_number": 16,
+    "source_row_count": 61,
+    "record_count": 61,
+    "source_score_sum": 2258,
+    "record_score_sum": 2258
+  },
+  {
+    "province_id": "province_e029126957914b35dbda677d24392a095ea1226c8af2bb1e31514a6c2fb66c96",
+    "province_name_th": "นครนายก",
+    "document_id": "pdf_17",
+    "source_document_number": 17,
+    "source_row_count": 16,
+    "record_count": 16,
+    "source_score_sum": 536,
+    "record_score_sum": 536
+  },
+  {
+    "province_id": "province_2ec2ca165553b5d139b399fde4ae9b3f0d9d0f0173dcd1305bc955e1390ec269",
+    "province_name_th": "สระแก้ว",
+    "document_id": "pdf_18",
+    "source_document_number": 18,
+    "source_row_count": 31,
+    "record_count": 31,
+    "source_score_sum": 922,
+    "record_score_sum": 922
+  },
+  {
+    "province_id": "province_6893d9960d64e316e857a89f0777d9de6e1912123ee869aac7b0c88ca31acd76",
+    "province_name_th": "นครราชสีมา",
+    "document_id": "pdf_19",
+    "source_document_number": 19,
+    "source_row_count": 154,
+    "record_count": 154,
+    "source_score_sum": 5327,
+    "record_score_sum": 5327
+  },
+  {
+    "province_id": "province_5176954a745be41b001233b6060001727abb1fd7486485033ab896f85cd9b21b",
+    "province_name_th": "บุรีรัมย์",
+    "document_id": "pdf_20",
+    "source_document_number": 20,
+    "source_row_count": 13,
+    "record_count": 13,
+    "source_score_sum": 391,
+    "record_score_sum": 391
+  },
+  {
+    "province_id": "province_1c2423df6646c7a0382971987ab4dbff8807a2afac07907bae94d64346f45b31",
+    "province_name_th": "สุรินทร์",
+    "document_id": "pdf_21",
+    "source_document_number": 21,
+    "source_row_count": 18,
+    "record_count": 18,
+    "source_score_sum": 682,
+    "record_score_sum": 682
+  },
+  {
+    "province_id": "province_f9f6638581f478ca33597c6a1c74c9c0f4ce868fabbfb1ca73867efbbdd0c9b4",
+    "province_name_th": "ศรีสะเกษ",
+    "document_id": "pdf_22",
+    "source_document_number": 22,
+    "source_row_count": 23,
+    "record_count": 23,
+    "source_score_sum": 924,
+    "record_score_sum": 924
+  },
+  {
+    "province_id": "province_830f6d907811689d3560fb89e95861d5130345da574d5e4766c2c809d8bd8070",
+    "province_name_th": "อุบลราชธานี",
+    "document_id": "pdf_23",
+    "source_document_number": 23,
+    "source_row_count": 105,
+    "record_count": 105,
+    "source_score_sum": 3830,
+    "record_score_sum": 3830
+  },
+  {
+    "province_id": "province_25d8bf9fefffd182eccac631bddc51bc205d530740beb6b9772cd40157850d77",
+    "province_name_th": "ยโสธร",
+    "document_id": "pdf_24",
+    "source_document_number": 24,
+    "source_row_count": 10,
+    "record_count": 10,
+    "source_score_sum": 456,
+    "record_score_sum": 456
+  },
+  {
+    "province_id": "province_ca9cb8105cf695dca97875b1d0edad7cfe138181b70480f918dd72ea00bd331d",
+    "province_name_th": "ชัยภูมิ",
+    "document_id": "pdf_25",
+    "source_document_number": 25,
+    "source_row_count": 38,
+    "record_count": 38,
+    "source_score_sum": 1182,
+    "record_score_sum": 1182
+  },
+  {
+    "province_id": "province_e572b30895be6b2013f8856886363581ba238f8ca67a3ae843615aced83566c7",
+    "province_name_th": "อำนาจเจริญ",
+    "document_id": "pdf_26",
+    "source_document_number": 26,
+    "source_row_count": 3,
+    "record_count": 3,
+    "source_score_sum": 111,
+    "record_score_sum": 111
+  },
+  {
+    "province_id": "province_d8ff55c7b834b492767cdb1cd2cc911828177905d4070483ecf7aa99181f32d3",
+    "province_name_th": "หนองบัวลำภู",
+    "document_id": "pdf_27",
+    "source_document_number": 27,
+    "source_row_count": 52,
+    "record_count": 52,
+    "source_score_sum": 1941,
+    "record_score_sum": 1941
+  },
+  {
+    "province_id": "province_bb126eb4aad0ac75409b1d19b4d93b69a146c5933be0b87eb98a0a051a4c94d0",
+    "province_name_th": "ขอนแก่น",
+    "document_id": "pdf_28",
+    "source_document_number": 28,
+    "source_row_count": 45,
+    "record_count": 45,
+    "source_score_sum": 1574,
+    "record_score_sum": 1574
+  },
+  {
+    "province_id": "province_65935d2833058d299a07855390b78512635d91437e855fcd3b5c3683a18a17bb",
+    "province_name_th": "อุดรธานี",
+    "document_id": "pdf_29",
+    "source_document_number": 29,
+    "source_row_count": 61,
+    "record_count": 61,
+    "source_score_sum": 2314,
+    "record_score_sum": 2314
+  },
+  {
+    "province_id": "province_c15ea61fd62a5acb4ed82635ca54e16ebeccc3629e38ce47a9cc88971794f69d",
+    "province_name_th": "เลย",
+    "document_id": "pdf_30",
+    "source_document_number": 30,
+    "source_row_count": 16,
+    "record_count": 16,
+    "source_score_sum": 651,
+    "record_score_sum": 651
+  },
+  {
+    "province_id": "province_6a556bfa107abb19d9317a1c268a747ad2560ab289b9df61369d01a030c09007",
+    "province_name_th": "หนองคาย",
+    "document_id": "pdf_31",
+    "source_document_number": 31,
+    "source_row_count": 32,
+    "record_count": 32,
+    "source_score_sum": 1150,
+    "record_score_sum": 1150
+  },
+  {
+    "province_id": "province_b1508162afb11c3057108b3f3dc93a38a973879e299350beb0bbbfed2288afbf",
+    "province_name_th": "มหาสารคาม",
+    "document_id": "pdf_32",
+    "source_document_number": 32,
+    "source_row_count": 24,
+    "record_count": 24,
+    "source_score_sum": 864,
+    "record_score_sum": 864
+  },
+  {
+    "province_id": "province_c86a2082796589deef86e6aeaa5bdae3621b1c205ab421557dccbb7361f5f6bd",
+    "province_name_th": "ร้อยเอ็ด",
+    "document_id": "pdf_33",
+    "source_document_number": 33,
+    "source_row_count": 12,
+    "record_count": 12,
+    "source_score_sum": 452,
+    "record_score_sum": 452
+  },
+  {
+    "province_id": "province_8677aab184608e563d5425f5cf72d65d8ec15064d07addcd0de523d912f31182",
+    "province_name_th": "กาฬสินธุ์",
+    "document_id": "pdf_34",
+    "source_document_number": 34,
+    "source_row_count": 9,
+    "record_count": 9,
+    "source_score_sum": 382,
+    "record_score_sum": 382
+  },
+  {
+    "province_id": "province_39c4cbd455da8405cc1cf41546886a92c7b31928fbaf700f7059a0064328acd2",
+    "province_name_th": "สกลนคร",
+    "document_id": "pdf_35",
+    "source_document_number": 35,
+    "source_row_count": 42,
+    "record_count": 42,
+    "source_score_sum": 1548,
+    "record_score_sum": 1548
+  },
+  {
+    "province_id": "province_73f3ae925c1a9ce77ce5ba38aa58933d80f522ace0e6912f1ac250d0d05c6815",
+    "province_name_th": "นครพนม",
+    "document_id": "pdf_36",
+    "source_document_number": 36,
+    "source_row_count": 51,
+    "record_count": 51,
+    "source_score_sum": 1888,
+    "record_score_sum": 1888
+  },
+  {
+    "province_id": "province_d8504492103672de46f6bc811d019090476c90648523c9be80f101ec8b12ac5b",
+    "province_name_th": "มุกดาหาร",
+    "document_id": "pdf_37",
+    "source_document_number": 37,
+    "source_row_count": 2,
+    "record_count": 2,
+    "source_score_sum": 77,
+    "record_score_sum": 77
+  },
+  {
+    "province_id": "province_0f9fb18b3e43874fcdad76149142f0e3ae85a18bc3607fbe80f198e2070a0d52",
+    "province_name_th": "เชียงใหม่",
+    "document_id": "pdf_38",
+    "source_document_number": 38,
+    "source_row_count": 42,
+    "record_count": 42,
+    "source_score_sum": 1376,
+    "record_score_sum": 1376
+  },
+  {
+    "province_id": "province_a782012d6f56b7e3da6ed347d18372e544271f51440cffac68c036e6fe5f8acc",
+    "province_name_th": "ลำพูน",
+    "document_id": "pdf_39",
+    "source_document_number": 39,
+    "source_row_count": 18,
+    "record_count": 18,
+    "source_score_sum": 609,
+    "record_score_sum": 609
+  },
+  {
+    "province_id": "province_7887f09d0762e042f654a2fc0167bc0e2f141eaca53f3aa159fb35e1f226d748",
+    "province_name_th": "ลำปาง",
+    "document_id": "pdf_40",
+    "source_document_number": 40,
+    "source_row_count": 35,
+    "record_count": 35,
+    "source_score_sum": 949,
+    "record_score_sum": 949
+  },
+  {
+    "province_id": "province_b890c387f84fff20cc8ea70a81172a6446f14151f3c94b33407d70339d7e95c3",
+    "province_name_th": "อุตรดิตถ์",
+    "document_id": "pdf_41",
+    "source_document_number": 41,
+    "source_row_count": 17,
+    "record_count": 17,
+    "source_score_sum": 433,
+    "record_score_sum": 433
+  },
+  {
+    "province_id": "province_ce6829f7c5f0dc91f3a1745caf9c92651e925576e2acf4b644174a63dd419805",
+    "province_name_th": "แพร่",
+    "document_id": "pdf_42",
+    "source_document_number": 42,
+    "source_row_count": 4,
+    "record_count": 4,
+    "source_score_sum": 174,
+    "record_score_sum": 174
+  },
+  {
+    "province_id": "province_62c86a0034a7007df29157ce624da472dec13808546be18c0cd469ac1d7242d2",
+    "province_name_th": "น่าน",
+    "document_id": "pdf_43",
+    "source_document_number": 43,
+    "source_row_count": 10,
+    "record_count": 10,
+    "source_score_sum": 354,
+    "record_score_sum": 354
+  },
+  {
+    "province_id": "province_2e2f1be5eb4f84deb40e52457a5bab41035d5b18526c56b95ac53335c1c310b2",
+    "province_name_th": "พะเยา",
+    "document_id": "pdf_44",
+    "source_document_number": 44,
+    "source_row_count": 18,
+    "record_count": 18,
+    "source_score_sum": 648,
+    "record_score_sum": 648
+  },
+  {
+    "province_id": "province_8d7be05e8cb81f093dff115fce704c4bc14cb800909e0ab1dc70f0f04f4aebc0",
+    "province_name_th": "เชียงราย",
+    "document_id": "pdf_45",
+    "source_document_number": 45,
+    "source_row_count": 12,
+    "record_count": 12,
+    "source_score_sum": 285,
+    "record_score_sum": 285
+  },
+  {
+    "province_id": "province_7e6c32aa439846a636e30987fe88441fd11b038e4807672c5680627af969cea7",
+    "province_name_th": "แม่ฮ่องสอน",
+    "document_id": "pdf_46",
+    "source_document_number": 46,
+    "source_row_count": 20,
+    "record_count": 20,
+    "source_score_sum": 601,
+    "record_score_sum": 601
+  },
+  {
+    "province_id": "province_9e1273f0a9e7700e455f530390bc7ef66f3a5092af19cf3597775b8decb3989f",
+    "province_name_th": "นครสวรรค์",
+    "document_id": "pdf_47",
+    "source_document_number": 47,
+    "source_row_count": 13,
+    "record_count": 13,
+    "source_score_sum": 335,
+    "record_score_sum": 335
+  },
+  {
+    "province_id": "province_57fc8367854fe7cf6d7e31e6eb2e76e696a5676abac0ce503d8cc3c45739a57b",
+    "province_name_th": "อุทัยธานี",
+    "document_id": "pdf_48",
+    "source_document_number": 48,
+    "source_row_count": 19,
+    "record_count": 19,
+    "source_score_sum": 730,
+    "record_score_sum": 730
+  },
+  {
+    "province_id": "province_c4546bd954548320e0f834815dd8cbade814f6cfe0ab4a50056144b1be3199e6",
+    "province_name_th": "กำแพงเพชร",
+    "document_id": "pdf_49",
+    "source_document_number": 49,
+    "source_row_count": 35,
+    "record_count": 35,
+    "source_score_sum": 1004,
+    "record_score_sum": 1004
+  },
+  {
+    "province_id": "province_762401d736b94eb088ce6e566df183fc3993071cba2783a36789a03fc77761c8",
+    "province_name_th": "ตาก",
+    "document_id": "pdf_50",
+    "source_document_number": 50,
+    "source_row_count": 49,
+    "record_count": 49,
+    "source_score_sum": 1608,
+    "record_score_sum": 1608
+  },
+  {
+    "province_id": "province_73ddca5b13b7e7472e7d2bc01ca04a0960f225c595983ea6f47c420e0b8cb140",
+    "province_name_th": "สุโขทัย",
+    "document_id": "pdf_51",
+    "source_document_number": 51,
+    "source_row_count": 32,
+    "record_count": 32,
+    "source_score_sum": 938,
+    "record_score_sum": 938
+  },
+  {
+    "province_id": "province_408dd2ffe85b13aa82597c1668ec6d6d6cfcf9410032fbeb718059bb161eca79",
+    "province_name_th": "พิษณุโลก",
+    "document_id": "pdf_52",
+    "source_document_number": 52,
+    "source_row_count": 39,
+    "record_count": 39,
+    "source_score_sum": 1456,
+    "record_score_sum": 1456
+  },
+  {
+    "province_id": "province_ac4856117b973d75faab8204690b8eed812c328e71a855622b3a607f8f67711e",
+    "province_name_th": "พิจิตร",
+    "document_id": "pdf_53",
+    "source_document_number": 53,
+    "source_row_count": 65,
+    "record_count": 65,
+    "source_score_sum": 2160,
+    "record_score_sum": 2160
+  },
+  {
+    "province_id": "province_2182c5f564c847a7ce4af5bff301091aebc5230d42c6322b4b8f59fcbeac3848",
+    "province_name_th": "เพชรบูรณ์",
+    "document_id": "pdf_54",
+    "source_document_number": 54,
+    "source_row_count": 79,
+    "record_count": 78,
+    "source_score_sum": 2746,
+    "record_score_sum": 2716
+  },
+  {
+    "province_id": "province_a8ef0a89d3e1092f39c8b550f0116d34bf56db59c042829a2734d154b5fcd730",
+    "province_name_th": "ราชบุรี",
+    "document_id": "pdf_55",
+    "source_document_number": 55,
+    "source_row_count": 46,
+    "record_count": 45,
+    "source_score_sum": 1532,
+    "record_score_sum": 1511
+  },
+  {
+    "province_id": "province_6cdf8a5b9ad2e6ecf70bf6390f78fb4e729181c2f473228709d948abfaf415b1",
+    "province_name_th": "กาญจนบุรี",
+    "document_id": "pdf_56",
+    "source_document_number": 56,
+    "source_row_count": 69,
+    "record_count": 69,
+    "source_score_sum": 2577,
+    "record_score_sum": 2577
+  },
+  {
+    "province_id": "province_24d272f45793fb6fb4d518346ac725447dba07b185b97c5a97fb71c2e025a357",
+    "province_name_th": "สุพรรณบุรี",
+    "document_id": "pdf_57",
+    "source_document_number": 57,
+    "source_row_count": 113,
+    "record_count": 112,
+    "source_score_sum": 4218,
+    "record_score_sum": 4203
+  },
+  {
+    "province_id": "province_f0fd599e03685b7a058ef3a932dd8e20d2247ac49c8bbbb6c0d83417d9ada35a",
+    "province_name_th": "นครปฐม",
+    "document_id": "pdf_58",
+    "source_document_number": 58,
+    "source_row_count": 90,
+    "record_count": 90,
+    "source_score_sum": 3219,
+    "record_score_sum": 3219
+  },
+  {
+    "province_id": "province_8f33b0508c73f0b11b61fbf9308fb0712fe7442770172a9344e17c6f458cb880",
+    "province_name_th": "สมุทรสาคร",
+    "document_id": "pdf_59",
+    "source_document_number": 59,
+    "source_row_count": 80,
+    "record_count": 80,
+    "source_score_sum": 2807,
+    "record_score_sum": 2807
+  },
+  {
+    "province_id": "province_b133b0404284dd7f053eed55fc4ef6b22503824f84696330319103936dbfa76a",
+    "province_name_th": "สมุทรสงคราม",
+    "document_id": "pdf_60",
+    "source_document_number": 60,
+    "source_row_count": 25,
+    "record_count": 25,
+    "source_score_sum": 846,
+    "record_score_sum": 846
+  },
+  {
+    "province_id": "province_b037ee2d7cf1e6f1e4c97728c4c7994224988774d4a3196a0033c8c16702558f",
+    "province_name_th": "เพชรบุรี",
+    "document_id": "pdf_61",
+    "source_document_number": 61,
+    "source_row_count": 20,
+    "record_count": 20,
+    "source_score_sum": 863,
+    "record_score_sum": 863
+  },
+  {
+    "province_id": "province_298e911dd6057fe845c9c6e3b3f280ed0f4f4b87e084d51093e4cf5e5f3c557c",
+    "province_name_th": "ประจวบคีรีขันธ์",
+    "document_id": "pdf_62",
+    "source_document_number": 62,
+    "source_row_count": 20,
+    "record_count": 20,
+    "source_score_sum": 771,
+    "record_score_sum": 771
+  },
+  {
+    "province_id": "province_75ee5e2ddacee76a0ea5d0bf609643cd47c0f5def8c09cceacaad8e2a3ac2caf",
+    "province_name_th": "นครศรีธรรมราช",
+    "document_id": "pdf_63",
+    "source_document_number": 63,
+    "source_row_count": 39,
+    "record_count": 39,
+    "source_score_sum": 1624,
+    "record_score_sum": 1624
+  },
+  {
+    "province_id": "province_58fa7d9ee088cca886f253ff9ea5ff0a163fce559c1d00159ee4e7ece98e91a0",
+    "province_name_th": "กระบี่",
+    "document_id": "pdf_64",
+    "source_document_number": 64,
+    "source_row_count": 115,
+    "record_count": 115,
+    "source_score_sum": 4884,
+    "record_score_sum": 4884
+  },
+  {
+    "province_id": "province_8a5c134d9f42ab4d8107cc48e2f6b58e0161df993090d6f280ee14585303cbf8",
+    "province_name_th": "พังงา",
+    "document_id": "pdf_65",
+    "source_document_number": 65,
+    "source_row_count": 0,
+    "record_count": 0,
+    "source_score_sum": 0,
+    "record_score_sum": 0
+  },
+  {
+    "province_id": "province_4de82d3004f413a201b99e5dacdc729bdd629ba645326806a8a285dfaf513fd9",
+    "province_name_th": "ภูเก็ต",
+    "document_id": "pdf_66",
+    "source_document_number": 66,
+    "source_row_count": 108,
+    "record_count": 108,
+    "source_score_sum": 4449,
+    "record_score_sum": 4449
+  },
+  {
+    "province_id": "province_a52ba466fce4e9e9fd5a789ab168ff5e5620411b1a9287024b5da80aaa07b87b",
+    "province_name_th": "สุราษฎร์ธานี",
+    "document_id": "pdf_67",
+    "source_document_number": 67,
+    "source_row_count": 239,
+    "record_count": 239,
+    "source_score_sum": 11143,
+    "record_score_sum": 11143
+  },
+  {
+    "province_id": "province_b6a3f27c3f187081704311ee0206b530b13ba7a7bbcb846fa57f6c78a272f6fc",
+    "province_name_th": "ระนอง",
+    "document_id": "pdf_68",
+    "source_document_number": 68,
+    "source_row_count": 94,
+    "record_count": 94,
+    "source_score_sum": 4441,
+    "record_score_sum": 4441
+  },
+  {
+    "province_id": "province_c733b18381f87398ccf66e7379254ed4ec70852e66129778f31e67982290f9b5",
+    "province_name_th": "ชุมพร",
+    "document_id": "pdf_69",
+    "source_document_number": 69,
+    "source_row_count": 84,
+    "record_count": 84,
+    "source_score_sum": 4026,
+    "record_score_sum": 4026
+  },
+  {
+    "province_id": "province_c93542e7136f1432e792be42c59aa7a4309cf7bd201b8756710359473a0708c3",
+    "province_name_th": "สงขลา",
+    "document_id": "pdf_70",
+    "source_document_number": 70,
+    "source_row_count": 68,
+    "record_count": 68,
+    "source_score_sum": 3118,
+    "record_score_sum": 3118
+  },
+  {
+    "province_id": "province_88a3696660483fb2d0538721d8d94adad90db56615e40d8f29087baaca327f44",
+    "province_name_th": "สตูล",
+    "document_id": "pdf_71",
+    "source_document_number": 71,
+    "source_row_count": 23,
+    "record_count": 23,
+    "source_score_sum": 1106,
+    "record_score_sum": 1106
+  },
+  {
+    "province_id": "province_d4f7fb8c8ad938e13fad4993d5b30678c2f0e3eddf3913ece765cdf7ee806770",
+    "province_name_th": "ตรัง",
+    "document_id": "pdf_72",
+    "source_document_number": 72,
+    "source_row_count": 72,
+    "record_count": 72,
+    "source_score_sum": 3290,
+    "record_score_sum": 3290
+  },
+  {
+    "province_id": "province_5db7ed00da9b2c63e09bcb150de289e8e3e631f530d9b4268a78f9ed6339368e",
+    "province_name_th": "พัทลุง",
+    "document_id": "pdf_73",
+    "source_document_number": 73,
+    "source_row_count": 91,
+    "record_count": 91,
+    "source_score_sum": 4179,
+    "record_score_sum": 4179
+  },
+  {
+    "province_id": "province_0644753d7ebd76b4f622674abd84f3447e4038b7ce7d0b0d73f1c8ec87671135",
+    "province_name_th": "ปัตตานี",
+    "document_id": "pdf_74",
+    "source_document_number": 74,
+    "source_row_count": 88,
+    "record_count": 88,
+    "source_score_sum": 3967,
+    "record_score_sum": 3967
+  },
+  {
+    "province_id": "province_c84d31a361c3aef3c67bde96a7fd63e04a866253b2f44376c48ae9c4b0930240",
+    "province_name_th": "ยะลา",
+    "document_id": "pdf_75",
+    "source_document_number": 75,
+    "source_row_count": 32,
+    "record_count": 32,
+    "source_score_sum": 1323,
+    "record_score_sum": 1323
+  },
+  {
+    "province_id": "province_27b8a467c8e0e2f444e0f32f1a8628ffffab30f5c0d9ac41e6a82505c6533391",
+    "province_name_th": "นราธิวาส",
+    "document_id": "pdf_76",
+    "source_document_number": 76,
+    "source_row_count": 62,
+    "record_count": 62,
+    "source_score_sum": 2774,
+    "record_score_sum": 2774
+  },
+  {
+    "province_id": "province_e49d0533a13576ba83e3a401cc9a71843b554b01298ef68cb39930968649a320",
+    "province_name_th": "บึงกาฬ",
+    "document_id": "pdf_77",
+    "source_document_number": 77,
+    "source_row_count": 11,
+    "record_count": 11,
+    "source_score_sum": 378,
+    "record_score_sum": 378
+  }
+]

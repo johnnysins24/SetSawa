@@ -1,0 +1,2081 @@
+[
+  {
+    "document_id": "pdf_01",
+    "filename": "01_กรุงเทพมหานคร.pdf",
+    "relative_path": "data/raw/pdfs/01_กรุงเทพมหานคร.pdf",
+    "sha256": "a23b4fb894f28df449799c15df40c88e61bba66f3c07c219e7fd6af7cc691478",
+    "bytes": 24777,
+    "page_count": 1,
+    "province_name_th": "กรุงเทพมหานคร",
+    "source_document_number": 1,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112055-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112055-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดกรุงเทพมหานคร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 0,
+      "score_sum": 0,
+      "score_max": 0
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_02",
+    "filename": "02_สมุทรปราการ.pdf",
+    "relative_path": "data/raw/pdfs/02_สมุทรปราการ.pdf",
+    "sha256": "368a15805d33fb210ed50297795f7f50bf822054e05b59bf71bfa25bee0f3a3c",
+    "bytes": 44023,
+    "page_count": 3,
+    "province_name_th": "สมุทรปราการ",
+    "source_document_number": 2,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112055-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112055-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสมุทรปราการ",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 95,
+      "score_sum": 3084,
+      "score_max": 59
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_03",
+    "filename": "03_นนทบุรี.pdf",
+    "relative_path": "data/raw/pdfs/03_นนทบุรี.pdf",
+    "sha256": "7dd9e7f51732791c63183067d85d18d20f856edf0c2dff89dbda84d866df2d62",
+    "bytes": 58782,
+    "page_count": 5,
+    "province_name_th": "นนทบุรี",
+    "source_document_number": 3,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112055-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112055-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนนทบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 182,
+      "score_sum": 6503,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_04",
+    "filename": "04_ปทุมธานี.pdf",
+    "relative_path": "data/raw/pdfs/04_ปทุมธานี.pdf",
+    "sha256": "83861a2a02db33dda27703227bb90cd50ba1b9144123e42912f926c1d1043c39",
+    "bytes": 59520,
+    "page_count": 5,
+    "province_name_th": "ปทุมธานี",
+    "source_document_number": 4,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดปทุมธานี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 181,
+      "score_sum": 6212,
+      "score_max": 69
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_05",
+    "filename": "05_พระนครศรีอยุธยา.pdf",
+    "relative_path": "data/raw/pdfs/05_พระนครศรีอยุธยา.pdf",
+    "sha256": "ae1ba5ac5ef768c29045f4282a9047c71474a8d654003bfa51574874b3f415fc",
+    "bytes": 46065,
+    "page_count": 3,
+    "province_name_th": "พระนครศรีอยุธยา",
+    "source_document_number": 5,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดพระนครศรีอยุธยา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 105,
+      "score_sum": 3324,
+      "score_max": 60
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_06",
+    "filename": "06_อ่างทอง.pdf",
+    "relative_path": "data/raw/pdfs/06_อ่างทอง.pdf",
+    "sha256": "03acf167c8c7dcc3b7e6ccbd9afcaa05e3b5157df416e00c1b7e146d91880d3c",
+    "bytes": 34687,
+    "page_count": 2,
+    "province_name_th": "อ่างทอง",
+    "source_document_number": 6,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดอ่างทอง",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 42,
+      "score_sum": 1562,
+      "score_max": 62
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_07",
+    "filename": "07_ลพบุรี.pdf",
+    "relative_path": "data/raw/pdfs/07_ลพบุรี.pdf",
+    "sha256": "f00681093e03a60a87dbc3834edae199fd055d6366406e456741ffd059ff3b05",
+    "bytes": 39472,
+    "page_count": 2,
+    "province_name_th": "ลพบุรี",
+    "source_document_number": 7,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดลพบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 73,
+      "score_sum": 2634,
+      "score_max": 60
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_08",
+    "filename": "08_สิงห์บุรี.pdf",
+    "relative_path": "data/raw/pdfs/08_สิงห์บุรี.pdf",
+    "sha256": "1fd4933c38e10cf826fbe5ecfe74a2eb8305671e2bb949afd059fb72b251fdad",
+    "bytes": 30037,
+    "page_count": 1,
+    "province_name_th": "สิงห์บุรี",
+    "source_document_number": 8,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสิงห์บุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 24,
+      "score_sum": 838,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_09",
+    "filename": "09_ชัยนาท.pdf",
+    "relative_path": "data/raw/pdfs/09_ชัยนาท.pdf",
+    "sha256": "1912b318a38a3716d462ae8461062b50db721b56bb5dcac725c184bafd97be54",
+    "bytes": 29970,
+    "page_count": 1,
+    "province_name_th": "ชัยนาท",
+    "source_document_number": 9,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดชัยนาท",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 23,
+      "score_sum": 720,
+      "score_max": 60
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_10",
+    "filename": "10_สระบุรี.pdf",
+    "relative_path": "data/raw/pdfs/10_สระบุรี.pdf",
+    "sha256": "5e0a433bc2cc307479a32d344bf5b0b4f006af0a3d0ccc1493fb587c885896c1",
+    "bytes": 43871,
+    "page_count": 3,
+    "province_name_th": "สระบุรี",
+    "source_document_number": 10,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสระบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 91,
+      "score_sum": 3160,
+      "score_max": 58
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_11",
+    "filename": "11_ชลบุรี.pdf",
+    "relative_path": "data/raw/pdfs/11_ชลบุรี.pdf",
+    "sha256": "3638acfefe295becff8609b6ee16edeea0914e518d215754813661f1c0a3f79b",
+    "bytes": 42512,
+    "page_count": 3,
+    "province_name_th": "ชลบุรี",
+    "source_document_number": 11,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดชลบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 82,
+      "score_sum": 2514,
+      "score_max": 63
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_12",
+    "filename": "12_ระยอง.pdf",
+    "relative_path": "data/raw/pdfs/12_ระยอง.pdf",
+    "sha256": "a807bf56c3fc6df739b3c4e072038fd3824bd793ca3bbc711cf4169e5e81ff9c",
+    "bytes": 37192,
+    "page_count": 2,
+    "province_name_th": "ระยอง",
+    "source_document_number": 12,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดระยอง",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 59,
+      "score_sum": 1874,
+      "score_max": 60
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_13",
+    "filename": "13_จันทบุรี.pdf",
+    "relative_path": "data/raw/pdfs/13_จันทบุรี.pdf",
+    "sha256": "b20ef2b0fb7767955210435e1f38c72a82bb812eb8d831b1ac9a4d227b8a8454",
+    "bytes": 28364,
+    "page_count": 1,
+    "province_name_th": "จันทบุรี",
+    "source_document_number": 13,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดจันทบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 13,
+      "score_sum": 446,
+      "score_max": 71
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_14",
+    "filename": "14_ตราด.pdf",
+    "relative_path": "data/raw/pdfs/14_ตราด.pdf",
+    "sha256": "393e31a1b8153f8cc465f3ec91d9f8ca361728a4cd33c0dfaa79d4d01d13c1e9",
+    "bytes": 27016,
+    "page_count": 1,
+    "province_name_th": "ตราด",
+    "source_document_number": 14,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดตราด",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 6,
+      "score_sum": 195,
+      "score_max": 42
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_15",
+    "filename": "15_ฉะเชิงเทรา.pdf",
+    "relative_path": "data/raw/pdfs/15_ฉะเชิงเทรา.pdf",
+    "sha256": "bf99cdf12418fcdc90b3c1c739fd4e7e09ca40818852ca43bcd1c3284b3cf084",
+    "bytes": 41922,
+    "page_count": 3,
+    "province_name_th": "ฉะเชิงเทรา",
+    "source_document_number": 15,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดฉะเชิงเทรา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 76,
+      "score_sum": 2487,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_16",
+    "filename": "16_ปราจีนบุรี.pdf",
+    "relative_path": "data/raw/pdfs/16_ปราจีนบุรี.pdf",
+    "sha256": "7b893a3f02630b40240d0242410f662e3fe91d8d5ea2449991bba89e89a89ea4",
+    "bytes": 37209,
+    "page_count": 2,
+    "province_name_th": "ปราจีนบุรี",
+    "source_document_number": 16,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดปราจีนบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 61,
+      "score_sum": 2258,
+      "score_max": 68
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_17",
+    "filename": "17_นครนายก.pdf",
+    "relative_path": "data/raw/pdfs/17_นครนายก.pdf",
+    "sha256": "69ee6e20b50a8b481e887173d13a132193b234c6f6442cad70c9aa3f04917b71",
+    "bytes": 29165,
+    "page_count": 1,
+    "province_name_th": "นครนายก",
+    "source_document_number": 17,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนครนายก",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 16,
+      "score_sum": 536,
+      "score_max": 55
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_18",
+    "filename": "18_สระแก้ว.pdf",
+    "relative_path": "data/raw/pdfs/18_สระแก้ว.pdf",
+    "sha256": "be2f47080dc7e95c466a639def50661998348f89a3d3495b6324e03e6ac06a59",
+    "bytes": 31301,
+    "page_count": 1,
+    "province_name_th": "สระแก้ว",
+    "source_document_number": 18,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสระแก้ว",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 31,
+      "score_sum": 922,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_19",
+    "filename": "19_นครราชสีมา.pdf",
+    "relative_path": "data/raw/pdfs/19_นครราชสีมา.pdf",
+    "sha256": "2fbc685c790d957bd597a9ae4cbc69a07dacbb20cab611015cf1ce2eecd5982c",
+    "bytes": 57210,
+    "page_count": 5,
+    "province_name_th": "นครราชสีมา",
+    "source_document_number": 19,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนครราชสีมา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 154,
+      "score_sum": 5327,
+      "score_max": 63
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_20",
+    "filename": "20_บุรีรัมย์.pdf",
+    "relative_path": "data/raw/pdfs/20_บุรีรัมย์.pdf",
+    "sha256": "ae2a7c5842b204a3f43b72f11f0cc869b9b435d34c9fd7a66feb13673b14c006",
+    "bytes": 28784,
+    "page_count": 1,
+    "province_name_th": "บุรีรัมย์",
+    "source_document_number": 20,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดบุรีรัมย์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 13,
+      "score_sum": 391,
+      "score_max": 47
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_21",
+    "filename": "21_สุรินทร์.pdf",
+    "relative_path": "data/raw/pdfs/21_สุรินทร์.pdf",
+    "sha256": "30de42d8df83af320948c083353a9109256e5f6ce057c8d941902c86bbb645dd",
+    "bytes": 29449,
+    "page_count": 1,
+    "province_name_th": "สุรินทร์",
+    "source_document_number": 21,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสุรินทร์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 18,
+      "score_sum": 682,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_22",
+    "filename": "22_ศรีสะเกษ.pdf",
+    "relative_path": "data/raw/pdfs/22_ศรีสะเกษ.pdf",
+    "sha256": "2695490faf896b9d7501aa7f09b83fc02b29dc6d768bbbf3a99d9138839b7d3e",
+    "bytes": 30641,
+    "page_count": 1,
+    "province_name_th": "ศรีสะเกษ",
+    "source_document_number": 22,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112056-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112056-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดศรีสะเกษ",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 23,
+      "score_sum": 924,
+      "score_max": 78
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_23",
+    "filename": "23_อุบลราชธานี.pdf",
+    "relative_path": "data/raw/pdfs/23_อุบลราชธานี.pdf",
+    "sha256": "771338278a591f8b5dfd252a64922234ef0d7071b6e6cd32beb2341668023e47",
+    "bytes": 46501,
+    "page_count": 3,
+    "province_name_th": "อุบลราชธานี",
+    "source_document_number": 23,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดอุบลราชธานี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 105,
+      "score_sum": 3830,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_24",
+    "filename": "24_ยโสธร.pdf",
+    "relative_path": "data/raw/pdfs/24_ยโสธร.pdf",
+    "sha256": "11414a0eb9f2dd0d2b908d5f1a25e50bf241a96ac3fdabf71ba570e190f65dc5",
+    "bytes": 28166,
+    "page_count": 1,
+    "province_name_th": "ยโสธร",
+    "source_document_number": 24,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดยโสธร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 10,
+      "score_sum": 456,
+      "score_max": 64
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_25",
+    "filename": "25_ชัยภูมิ.pdf",
+    "relative_path": "data/raw/pdfs/25_ชัยภูมิ.pdf",
+    "sha256": "0155bd151db06d789a16df2bc6422d9237698f7f38d57991cc1ab60bcb86601c",
+    "bytes": 34420,
+    "page_count": 2,
+    "province_name_th": "ชัยภูมิ",
+    "source_document_number": 25,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดชัยภูมิ",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 38,
+      "score_sum": 1182,
+      "score_max": 61
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_26",
+    "filename": "26_อำนาจเจริญ.pdf",
+    "relative_path": "data/raw/pdfs/26_อำนาจเจริญ.pdf",
+    "sha256": "608054fcb545877f0b72292a81f585036ae60a0a5c03c450d70bb8db53ec4788",
+    "bytes": 26690,
+    "page_count": 1,
+    "province_name_th": "อำนาจเจริญ",
+    "source_document_number": 26,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดอำนาจเจริญ",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 3,
+      "score_sum": 111,
+      "score_max": 39
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_27",
+    "filename": "27_หนองบัวลำภู.pdf",
+    "relative_path": "data/raw/pdfs/27_หนองบัวลำภู.pdf",
+    "sha256": "bf545cbe9d19aa5a22880cf18f4484776d7d3e1348605d1451dfe7147ed85334",
+    "bytes": 36031,
+    "page_count": 2,
+    "province_name_th": "หนองบัวลำภู",
+    "source_document_number": 27,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดหนองบัวลำภู",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 52,
+      "score_sum": 1941,
+      "score_max": 63
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_28",
+    "filename": "28_ขอนแก่น.pdf",
+    "relative_path": "data/raw/pdfs/28_ขอนแก่น.pdf",
+    "sha256": "38e1a8d128ab928dd0bef117c9dbaa8191aea027adc2dae9137f68937f31d040",
+    "bytes": 35417,
+    "page_count": 2,
+    "province_name_th": "ขอนแก่น",
+    "source_document_number": 28,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดขอนแก่น",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 45,
+      "score_sum": 1574,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_29",
+    "filename": "29_อุดรธานี.pdf",
+    "relative_path": "data/raw/pdfs/29_อุดรธานี.pdf",
+    "sha256": "a1a30635ac132e2e87cc5b8c3c2c6e737453ecabe176861ce1a21609a26f3a1a",
+    "bytes": 37678,
+    "page_count": 2,
+    "province_name_th": "อุดรธานี",
+    "source_document_number": 29,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดอุดรธานี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 61,
+      "score_sum": 2314,
+      "score_max": 66
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_30",
+    "filename": "30_เลย.pdf",
+    "relative_path": "data/raw/pdfs/30_เลย.pdf",
+    "sha256": "3dbc36c6e240d0c7cc9a595bfe9743d7b0579f6761191fb00c2a69959c985598",
+    "bytes": 28827,
+    "page_count": 1,
+    "province_name_th": "เลย",
+    "source_document_number": 30,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดเลย",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 16,
+      "score_sum": 651,
+      "score_max": 67
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_31",
+    "filename": "31_หนองคาย.pdf",
+    "relative_path": "data/raw/pdfs/31_หนองคาย.pdf",
+    "sha256": "f1a10c3940792a9b882ab08acb2b2394c5009faa4f9334ce940cf44438cf5d54",
+    "bytes": 31351,
+    "page_count": 1,
+    "province_name_th": "หนองคาย",
+    "source_document_number": 31,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดหนองคาย",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 32,
+      "score_sum": 1150,
+      "score_max": 66
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_32",
+    "filename": "32_มหาสารคาม.pdf",
+    "relative_path": "data/raw/pdfs/32_มหาสารคาม.pdf",
+    "sha256": "b00581f42f40b25ff4c6be7ad8e530fc1306844ad3bb673079384b891a4190e5",
+    "bytes": 30067,
+    "page_count": 1,
+    "province_name_th": "มหาสารคาม",
+    "source_document_number": 32,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดมหาสารคาม",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 24,
+      "score_sum": 864,
+      "score_max": 55
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_33",
+    "filename": "33_ร้อยเอ็ด.pdf",
+    "relative_path": "data/raw/pdfs/33_ร้อยเอ็ด.pdf",
+    "sha256": "803bc44f1213b58c511b011e1bd47fdf863f6e6f583f7263065cda30ef3d413a",
+    "bytes": 28796,
+    "page_count": 1,
+    "province_name_th": "ร้อยเอ็ด",
+    "source_document_number": 33,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดร้อยเอ็ด",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 12,
+      "score_sum": 452,
+      "score_max": 64
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_34",
+    "filename": "34_กาฬสินธุ์.pdf",
+    "relative_path": "data/raw/pdfs/34_กาฬสินธุ์.pdf",
+    "sha256": "30b4d774cb5320d220f159e40b6587975e86746b88d9aa4836232840654436f4",
+    "bytes": 28255,
+    "page_count": 1,
+    "province_name_th": "กาฬสินธุ์",
+    "source_document_number": 34,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดกาฬสินธุ์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 9,
+      "score_sum": 382,
+      "score_max": 59
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_35",
+    "filename": "35_สกลนคร.pdf",
+    "relative_path": "data/raw/pdfs/35_สกลนคร.pdf",
+    "sha256": "34e8cb69b8d0f03a2caba0ffc0eb6d4b5233159b13350c073968de56ab12b69f",
+    "bytes": 34654,
+    "page_count": 2,
+    "province_name_th": "สกลนคร",
+    "source_document_number": 35,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสกลนคร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 42,
+      "score_sum": 1548,
+      "score_max": 63
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_36",
+    "filename": "36_นครพนม.pdf",
+    "relative_path": "data/raw/pdfs/36_นครพนม.pdf",
+    "sha256": "e5624d419ac85611ac4b3fe0a27d6bfa73a7b474d5b0ee2a6b1a7b64f4783d70",
+    "bytes": 36192,
+    "page_count": 2,
+    "province_name_th": "นครพนม",
+    "source_document_number": 36,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนครพนม",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 51,
+      "score_sum": 1888,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_37",
+    "filename": "37_มุกดาหาร.pdf",
+    "relative_path": "data/raw/pdfs/37_มุกดาหาร.pdf",
+    "sha256": "c40302f0903fd3646974bbdc8cfbc62616834e33f18899046ff82dcc373b88b1",
+    "bytes": 26131,
+    "page_count": 1,
+    "province_name_th": "มุกดาหาร",
+    "source_document_number": 37,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดมุกดาหาร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 2,
+      "score_sum": 77,
+      "score_max": 55
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_38",
+    "filename": "38_เชียงใหม่.pdf",
+    "relative_path": "data/raw/pdfs/38_เชียงใหม่.pdf",
+    "sha256": "462a1c486a501887e4446ef7e812041c7d158ab4442235b85572d4a89fd7f492",
+    "bytes": 34902,
+    "page_count": 2,
+    "province_name_th": "เชียงใหม่",
+    "source_document_number": 38,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดเชียงใหม่",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 42,
+      "score_sum": 1376,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_39",
+    "filename": "39_ลำพูน.pdf",
+    "relative_path": "data/raw/pdfs/39_ลำพูน.pdf",
+    "sha256": "f8439630693dcb0a91ca91bc39687ac32878a128fb24ec09b75d075fce0bca64",
+    "bytes": 29245,
+    "page_count": 1,
+    "province_name_th": "ลำพูน",
+    "source_document_number": 39,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดลำพูน",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 18,
+      "score_sum": 609,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_40",
+    "filename": "40_ลำปาง.pdf",
+    "relative_path": "data/raw/pdfs/40_ลำปาง.pdf",
+    "sha256": "89bea4e9a200e8f073d048a2ed2a881a1e01108b8c12f1e050317b845aac6b1d",
+    "bytes": 32003,
+    "page_count": 1,
+    "province_name_th": "ลำปาง",
+    "source_document_number": 40,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดลำปาง",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 35,
+      "score_sum": 949,
+      "score_max": 57
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_41",
+    "filename": "41_อุตรดิตถ์.pdf",
+    "relative_path": "data/raw/pdfs/41_อุตรดิตถ์.pdf",
+    "sha256": "30547a39de949400c4d126175dcaea5210ed959ebf29c2b6135b85e45a4643e4",
+    "bytes": 29682,
+    "page_count": 1,
+    "province_name_th": "อุตรดิตถ์",
+    "source_document_number": 41,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดอุตรดิตถ์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 17,
+      "score_sum": 433,
+      "score_max": 41
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_42",
+    "filename": "42_แพร่.pdf",
+    "relative_path": "data/raw/pdfs/42_แพร่.pdf",
+    "sha256": "16f91667607b5c5a42e3cff7ad822babaad330c616362a662a0b4828b7b23b93",
+    "bytes": 26125,
+    "page_count": 1,
+    "province_name_th": "แพร่",
+    "source_document_number": 42,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดแพร่",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 4,
+      "score_sum": 174,
+      "score_max": 59
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_43",
+    "filename": "43_น่าน.pdf",
+    "relative_path": "data/raw/pdfs/43_น่าน.pdf",
+    "sha256": "edb270fe62c998ddd1ab10ecfe3b80a9ebcafcd12ad7a426b34c631deae32c4f",
+    "bytes": 28221,
+    "page_count": 1,
+    "province_name_th": "น่าน",
+    "source_document_number": 43,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดน่าน",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 10,
+      "score_sum": 354,
+      "score_max": 50
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_44",
+    "filename": "44_พะเยา.pdf",
+    "relative_path": "data/raw/pdfs/44_พะเยา.pdf",
+    "sha256": "0b6a87addaacef010594603f0dfdfb6eeb947a760e12360b52409636f432ab36",
+    "bytes": 29103,
+    "page_count": 1,
+    "province_name_th": "พะเยา",
+    "source_document_number": 44,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดพะเยา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 18,
+      "score_sum": 648,
+      "score_max": 61
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_45",
+    "filename": "45_เชียงราย.pdf",
+    "relative_path": "data/raw/pdfs/45_เชียงราย.pdf",
+    "sha256": "29b1222a0b0979d29984a9dd61c0130edaa8b2dbaf6e6c7cd7a1c4c198e06186",
+    "bytes": 28346,
+    "page_count": 1,
+    "province_name_th": "เชียงราย",
+    "source_document_number": 45,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดเชียงราย",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 12,
+      "score_sum": 285,
+      "score_max": 36
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_46",
+    "filename": "46_แม่ฮ่องสอน.pdf",
+    "relative_path": "data/raw/pdfs/46_แม่ฮ่องสอน.pdf",
+    "sha256": "06c4f6b2edd8aec0be7828038556b5b7aec2393f710ca692324db2369d00d382",
+    "bytes": 29635,
+    "page_count": 1,
+    "province_name_th": "แม่ฮ่องสอน",
+    "source_document_number": 46,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดแม่ฮ่องสอน",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 20,
+      "score_sum": 601,
+      "score_max": 58
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_47",
+    "filename": "47_นครสวรรค์.pdf",
+    "relative_path": "data/raw/pdfs/47_นครสวรรค์.pdf",
+    "sha256": "365b7fdb0bc54f527416d61502059d02cd2aaa1ed2d3600907d80b79987b64c8",
+    "bytes": 28764,
+    "page_count": 1,
+    "province_name_th": "นครสวรรค์",
+    "source_document_number": 47,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนครสวรรค์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 13,
+      "score_sum": 335,
+      "score_max": 52
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_48",
+    "filename": "48_อุทัยธานี.pdf",
+    "relative_path": "data/raw/pdfs/48_อุทัยธานี.pdf",
+    "sha256": "4ace8fb0ec02d2b1aa95432a9b9e883581d60aba88879e64923cce23b14c3f06",
+    "bytes": 29506,
+    "page_count": 1,
+    "province_name_th": "อุทัยธานี",
+    "source_document_number": 48,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดอุทัยธานี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 19,
+      "score_sum": 730,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_49",
+    "filename": "49_กำแพงเพชร.pdf",
+    "relative_path": "data/raw/pdfs/49_กำแพงเพชร.pdf",
+    "sha256": "6ada8eb27a34993420ed8c6db69aa4ae13ff4283abdb43b9d76a05d6794f6a27",
+    "bytes": 32090,
+    "page_count": 1,
+    "province_name_th": "กำแพงเพชร",
+    "source_document_number": 49,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดกำแพงเพชร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 35,
+      "score_sum": 1004,
+      "score_max": 53
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_50",
+    "filename": "50_ตาก.pdf",
+    "relative_path": "data/raw/pdfs/50_ตาก.pdf",
+    "sha256": "8b7fe8a59c2c1fa488d7462868687d8f934217d7df929384117ef1e19dae37ab",
+    "bytes": 35759,
+    "page_count": 2,
+    "province_name_th": "ตาก",
+    "source_document_number": 50,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดตาก",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 49,
+      "score_sum": 1608,
+      "score_max": 58
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_51",
+    "filename": "51_สุโขทัย.pdf",
+    "relative_path": "data/raw/pdfs/51_สุโขทัย.pdf",
+    "sha256": "380327daf06efde704e25ac9a209c4688b14087a4bcd57b35db44471d39e5199",
+    "bytes": 31778,
+    "page_count": 1,
+    "province_name_th": "สุโขทัย",
+    "source_document_number": 51,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสุโขทัย",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 32,
+      "score_sum": 938,
+      "score_max": 53
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_52",
+    "filename": "52_พิษณุโลก.pdf",
+    "relative_path": "data/raw/pdfs/52_พิษณุโลก.pdf",
+    "sha256": "9cb0d6cf6dff8fc890e8435c67310ba7051a6c49c0a0cbb9b817f49c8ece0551",
+    "bytes": 34701,
+    "page_count": 2,
+    "province_name_th": "พิษณุโลก",
+    "source_document_number": 52,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดพิษณุโลก",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 39,
+      "score_sum": 1456,
+      "score_max": 66
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_53",
+    "filename": "53_พิจิตร.pdf",
+    "relative_path": "data/raw/pdfs/53_พิจิตร.pdf",
+    "sha256": "41aaaf3a91961ab9b2dee694f50d9a086d1ad80beffe1b54e81370016a11cb14",
+    "bytes": 38261,
+    "page_count": 2,
+    "province_name_th": "พิจิตร",
+    "source_document_number": 53,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดพิจิตร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 65,
+      "score_sum": 2160,
+      "score_max": 56
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_54",
+    "filename": "54_เพชรบูรณ์.pdf",
+    "relative_path": "data/raw/pdfs/54_เพชรบูรณ์.pdf",
+    "sha256": "884b1d2d94fff12fa64928c8a22df877265f50fbc00dfcb61f5a4636dd1c14c8",
+    "bytes": 41955,
+    "page_count": 3,
+    "province_name_th": "เพชรบูรณ์",
+    "source_document_number": 54,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดเพชรบูรณ์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 79,
+      "score_sum": 2746,
+      "score_max": 66
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_55",
+    "filename": "55_ราชบุรี.pdf",
+    "relative_path": "data/raw/pdfs/55_ราชบุรี.pdf",
+    "sha256": "fe2373eb0d81516b45b09f5bb593a35bc32f505875cafd93f214ca6bc310c4d4",
+    "bytes": 35530,
+    "page_count": 2,
+    "province_name_th": "ราชบุรี",
+    "source_document_number": 55,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112057-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112057-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดราชบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 46,
+      "score_sum": 1532,
+      "score_max": 53
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_56",
+    "filename": "56_กาญจนบุรี.pdf",
+    "relative_path": "data/raw/pdfs/56_กาญจนบุรี.pdf",
+    "sha256": "f0ce416ab9d3f527c2052960422068d0564c2b8833f2a75d05cab7aa8280b0d5",
+    "bytes": 38842,
+    "page_count": 2,
+    "province_name_th": "กาญจนบุรี",
+    "source_document_number": 56,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดกาญจนบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 69,
+      "score_sum": 2577,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_57",
+    "filename": "57_สุพรรณบุรี.pdf",
+    "relative_path": "data/raw/pdfs/57_สุพรรณบุรี.pdf",
+    "sha256": "9b6f57faac860a1339f68519b1b756d3ef34cc2ccd4962f5e15b78600e7c9112",
+    "bytes": 48559,
+    "page_count": 4,
+    "province_name_th": "สุพรรณบุรี",
+    "source_document_number": 57,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสุพรรณบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 113,
+      "score_sum": 4218,
+      "score_max": 72
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_58",
+    "filename": "58_นครปฐม.pdf",
+    "relative_path": "data/raw/pdfs/58_นครปฐม.pdf",
+    "sha256": "8ff0dc3c9fe92f1cc2721c37fe35cfcc653ad17ca531672dc94686e7776d35a5",
+    "bytes": 43871,
+    "page_count": 3,
+    "province_name_th": "นครปฐม",
+    "source_document_number": 58,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนครปฐม",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 90,
+      "score_sum": 3219,
+      "score_max": 64
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_59",
+    "filename": "59_สมุทรสาคร.pdf",
+    "relative_path": "data/raw/pdfs/59_สมุทรสาคร.pdf",
+    "sha256": "0c5827ab1fffa2ec0689a95405ee8640473ea428f18b199f44d2f71d4f366ad8",
+    "bytes": 41917,
+    "page_count": 3,
+    "province_name_th": "สมุทรสาคร",
+    "source_document_number": 59,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสมุทรสาคร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 80,
+      "score_sum": 2807,
+      "score_max": 67
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_60",
+    "filename": "60_สมุทรสงคราม.pdf",
+    "relative_path": "data/raw/pdfs/60_สมุทรสงคราม.pdf",
+    "sha256": "83005eabe1d9070b5592477278ea610755bdcb54fea6e719fee81b3b098eaa28",
+    "bytes": 30300,
+    "page_count": 1,
+    "province_name_th": "สมุทรสงคราม",
+    "source_document_number": 60,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสมุทรสงคราม",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 25,
+      "score_sum": 846,
+      "score_max": 60
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_61",
+    "filename": "61_เพชรบุรี.pdf",
+    "relative_path": "data/raw/pdfs/61_เพชรบุรี.pdf",
+    "sha256": "6dda18b7ffb9a73296045d0dd81965bec27f7cbccc7ef862c8bf458d206599e2",
+    "bytes": 29568,
+    "page_count": 1,
+    "province_name_th": "เพชรบุรี",
+    "source_document_number": 61,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดเพชรบุรี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 20,
+      "score_sum": 863,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_62",
+    "filename": "62_ประจวบคีรีขันธ์.pdf",
+    "relative_path": "data/raw/pdfs/62_ประจวบคีรีขันธ์.pdf",
+    "sha256": "16170e28f4926ce3d0cb9566cb26ec752a3cb84a42d0ceb55d00107b3d3f1443",
+    "bytes": 29614,
+    "page_count": 1,
+    "province_name_th": "ประจวบคีรีขันธ์",
+    "source_document_number": 62,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดประจวบคีรีขันธ์",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 20,
+      "score_sum": 771,
+      "score_max": 55
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_63",
+    "filename": "63_นครศรีธรรมราช.pdf",
+    "relative_path": "data/raw/pdfs/63_นครศรีธรรมราช.pdf",
+    "sha256": "b04433cfbe561d1199180db3f5210359427f668e1f7b072f31972e2749ce63ae",
+    "bytes": 34605,
+    "page_count": 2,
+    "province_name_th": "นครศรีธรรมราช",
+    "source_document_number": 63,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนครศรีธรรมราช",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 39,
+      "score_sum": 1624,
+      "score_max": 65
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_64",
+    "filename": "64_กระบี่.pdf",
+    "relative_path": "data/raw/pdfs/64_กระบี่.pdf",
+    "sha256": "a4e4abc03757d1e14ce1bfb2e426567faeea8fce3152123821e712496872240e",
+    "bytes": 47871,
+    "page_count": 4,
+    "province_name_th": "กระบี่",
+    "source_document_number": 64,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดกระบี่",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 115,
+      "score_sum": 4884,
+      "score_max": 69
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_65",
+    "filename": "65_พังงา.pdf",
+    "relative_path": "data/raw/pdfs/65_พังงา.pdf",
+    "sha256": "7683b46d44eae463e7c2ad727f0f0e3dd3a3be9df5ebae7725f05c7d27dd93e6",
+    "bytes": 24712,
+    "page_count": 1,
+    "province_name_th": "พังงา",
+    "source_document_number": 65,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดพังงา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 0,
+      "score_sum": 0,
+      "score_max": 0
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_66",
+    "filename": "66_ภูเก็ต.pdf",
+    "relative_path": "data/raw/pdfs/66_ภูเก็ต.pdf",
+    "sha256": "012255400d37e8c732ded7ebc3c018108c8f4aa391112b3f6d6515d21e797ab6",
+    "bytes": 45089,
+    "page_count": 3,
+    "province_name_th": "ภูเก็ต",
+    "source_document_number": 66,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดภูเก็ต",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 108,
+      "score_sum": 4449,
+      "score_max": 64
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_67",
+    "filename": "67_สุราษฎร์ธานี.pdf",
+    "relative_path": "data/raw/pdfs/67_สุราษฎร์ธานี.pdf",
+    "sha256": "b66fc9f9229750b7a04c0e5c07c072d77eb0800ed604da819fb28b6c4a75a636",
+    "bytes": 71262,
+    "page_count": 7,
+    "province_name_th": "สุราษฎร์ธานี",
+    "source_document_number": 67,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสุราษฎร์ธานี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 239,
+      "score_sum": 11143,
+      "score_max": 71
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_68",
+    "filename": "68_ระนอง.pdf",
+    "relative_path": "data/raw/pdfs/68_ระนอง.pdf",
+    "sha256": "3a242476c7c0c82cd6f78455b9ca30a8d8e875f3ae38090ae0fd5fb12805c593",
+    "bytes": 43698,
+    "page_count": 3,
+    "province_name_th": "ระนอง",
+    "source_document_number": 68,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดระนอง",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 94,
+      "score_sum": 4441,
+      "score_max": 70
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_69",
+    "filename": "69_ชุมพร.pdf",
+    "relative_path": "data/raw/pdfs/69_ชุมพร.pdf",
+    "sha256": "769b283c00d83344280df884874571c2a99d89f78de64644b43bf9c6a108efa4",
+    "bytes": 42496,
+    "page_count": 3,
+    "province_name_th": "ชุมพร",
+    "source_document_number": 69,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112058-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112058-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดชุมพร",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 84,
+      "score_sum": 4026,
+      "score_max": 77
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_70",
+    "filename": "70_สงขลา.pdf",
+    "relative_path": "data/raw/pdfs/70_สงขลา.pdf",
+    "sha256": "dd0c8cec48b7f0994639864765a097630785c0e22135d674cb3057f22c0f80ab",
+    "bytes": 38322,
+    "page_count": 2,
+    "province_name_th": "สงขลา",
+    "source_document_number": 70,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสงขลา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 68,
+      "score_sum": 3118,
+      "score_max": 72
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_71",
+    "filename": "71_สตูล.pdf",
+    "relative_path": "data/raw/pdfs/71_สตูล.pdf",
+    "sha256": "639082545e4a719e41bac9fcbfd55a943a269cfdf276e85b2e44844d06d2a73a",
+    "bytes": 29885,
+    "page_count": 1,
+    "province_name_th": "สตูล",
+    "source_document_number": 71,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดสตูล",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 23,
+      "score_sum": 1106,
+      "score_max": 70
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_72",
+    "filename": "72_ตรัง.pdf",
+    "relative_path": "data/raw/pdfs/72_ตรัง.pdf",
+    "sha256": "04f947c56ddf01a73b376cdbb3099e393f9141fff3fec2504b9e031114606073",
+    "bytes": 39478,
+    "page_count": 2,
+    "province_name_th": "ตรัง",
+    "source_document_number": 72,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดตรัง",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 72,
+      "score_sum": 3290,
+      "score_max": 68
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_73",
+    "filename": "73_พัทลุง.pdf",
+    "relative_path": "data/raw/pdfs/73_พัทลุง.pdf",
+    "sha256": "8a9a8b1fb9d81eb7f2d76afa1f886621ea38587fc4c60902bc317398649ff90e",
+    "bytes": 43811,
+    "page_count": 3,
+    "province_name_th": "พัทลุง",
+    "source_document_number": 73,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดพัทลุง",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 91,
+      "score_sum": 4179,
+      "score_max": 70
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_74",
+    "filename": "74_ปัตตานี.pdf",
+    "relative_path": "data/raw/pdfs/74_ปัตตานี.pdf",
+    "sha256": "a740362f586a24f46fcc09fc1a1bc6391556e4c9bc432141903734f7833f39db",
+    "bytes": 42765,
+    "page_count": 3,
+    "province_name_th": "ปัตตานี",
+    "source_document_number": 74,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดปัตตานี",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 88,
+      "score_sum": 3967,
+      "score_max": 70
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_75",
+    "filename": "75_ยะลา.pdf",
+    "relative_path": "data/raw/pdfs/75_ยะลา.pdf",
+    "sha256": "ffef7f4f9a7953e62785b17dc6cfa1d3fa15bda9cb7369abaaa41e24f24f5ae4",
+    "bytes": 31081,
+    "page_count": 1,
+    "province_name_th": "ยะลา",
+    "source_document_number": 75,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดยะลา",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 32,
+      "score_sum": 1323,
+      "score_max": 69
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_76",
+    "filename": "76_นราธิวาส.pdf",
+    "relative_path": "data/raw/pdfs/76_นราธิวาส.pdf",
+    "sha256": "474bb90a38c020bbc86d90180af2b062867ed6a1db6999d709acff810fd5d84d",
+    "bytes": 37486,
+    "page_count": 2,
+    "province_name_th": "นราธิวาส",
+    "source_document_number": 76,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดนราธิวาส",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 62,
+      "score_sum": 2774,
+      "score_max": 72
+    },
+    "active_content_flags": []
+  },
+  {
+    "document_id": "pdf_77",
+    "filename": "77_บึงกาฬ.pdf",
+    "relative_path": "data/raw/pdfs/77_บึงกาฬ.pdf",
+    "sha256": "c6a9a5450194adece004b460d492fc69a9aaf576ac9b79fe291a676e7bd6b4b3",
+    "bytes": 28421,
+    "page_count": 1,
+    "province_name_th": "บึงกาฬ",
+    "source_document_number": 77,
+    "metadata": {
+      "/Author": "",
+      "/CreationDate": "D:20260813112059-03'00'",
+      "/Creator": "(unspecified)",
+      "/Keywords": "",
+      "/ModDate": "D:20260813112059-03'00'",
+      "/Producer": "ReportLab PDF Library - (opensource)",
+      "/Subject": "(unspecified)",
+      "/Title": "รายชื่อยืนยันแล้ว - จังหวัดบึงกาฬ",
+      "/Trapped": "/False"
+    },
+    "summary": {
+      "source_row_count": 11,
+      "score_sum": 378,
+      "score_max": 52
+    },
+    "active_content_flags": []
+  }
+]

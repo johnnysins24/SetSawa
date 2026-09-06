@@ -1,0 +1,23 @@
+{
+  "snapshot_version": "1.0.0",
+  "status": "passed",
+  "pytest_passed": 23,
+  "validation_checks": 264,
+  "canonical_rebuild_files": 16,
+  "notebook_code_cells_executed": 4,
+  "known_dependency_vulnerabilities": 0,
+  "source_claims_verified": false,
+  "reviewed_hashes": {
+    "data/processed/clean/records.json": "8c175587fb5e26833230e6549ef8f4f43fb384a8e1fb246001c580cbaffee686",
+    "data/processed/raw/rows.jsonl": "697255b63220531f85a8cedc45be5f640b220b186fe6a4e6fb653f94c2c53280",
+    "data/processed/raw/documents.json": "011899d9d8841caa0879ff04a14af440e4379efe4fe454116988d60896f26245",
+    "data/processed/reader/setsawa.xlsx": "95a0f532f78a433cfcb34c5a74f0ee67f509dab31050775ae1ea2deb3db90fa5",
+    "reports/artifact.json": "b5ee4396099b3f19da83250e5c9c120f2674418f89bb02b65a2c084564442459",
+    "reports/quality-report.html": "1ed2cc1b6f99267ddde8d7e8423f4d6117b0ad04f325e08c70e6ef3e282ec34c",
+    "uv.lock": "c2fc3342141ce010ac5d09477263cb06cafa0f3c8999f56b0327901be7027d24",
+    "reports/visual-review.json": "330171c54c24947bae016eb5c6fac54a30b75dfd4264f87d6fd7cab20a36d692",
+    "reports/html-security-test.json": "2d090c619050894375fa6eef926c4d8974b83df3e7e972d8907d7fa75d6d6c6a",
+    "reports/reproducibility.json": "03fd0e41b58a3e833dc133393743886dc4820d1a71457de880a7218887c539d1"
+  },
+  "security_boundary": "Resource-limited credential-free parser with Python networking restrictions; not a native-exploit OS sandbox."
+}
